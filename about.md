@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am currently a 3rd year student pursuing an under graduate course in Computer Science Engineering from Manipal Institute of Technology. I am inclined towards research in fields pertaining to Artificial Intelligence, although I am equally fascinated with anything related to Computers. Have done some projects and internships in a bid to further my knowledge.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Link to my [Résumé](https://github.com/yashYRS/yashYRS.github.io/blob/master/cv.pdf)
 
 
-[jekyll-organization]: https://github.com/jekyll
+Feel free to drop in some suggestions to my email or whatsapp, if you want me to write about something, or any feedback in general. 
+
+	Email : yash.raj2@learner.manipal.edu
+	Phone Number : +91-8334881812
