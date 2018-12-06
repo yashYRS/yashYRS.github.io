@@ -17,9 +17,10 @@ title: Yash Raj Sarrof
 email: yash.raj2@learner.manipal.edu
 description: >- # this means to ignore newlines until "baseurl:"
   This website serves as my online Portfolio. Although I also intend to use it as a platform 
-  to share with others what I learn, my thoughts on a few of the recent trends as well.
+  to share technical articles about what I learn, and some non-technical articles discussing things
+  that I find exciting. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://yashyrs.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yashYRS
 github_username:  yashYRS
 
