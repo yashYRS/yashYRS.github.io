@@ -1,7 +1,7 @@
 ---
 layout : post
 title : "Navigation between Screens in React Native"
-date : 2018-12-06
+date : 2018-12-14
 categories : Technical/React-Native-series 
 ---
 
