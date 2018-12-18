@@ -5,9 +5,9 @@ date : 2018-12-14
 categories : Technical/React-Native-series 
 ---
 
-*Note : Haven't put up any introductory post on setting up React Native Environment, since there are a lot of 
+_Note : Haven't put up any introductory post on setting up React Native Environment, since there are a lot of 
 references available for that already. Also I recommend going through the following repository, it has an all
-expansive list of react-native study material : [Repo link](https://github.com/jondot/awesome-react-native) *
+expansive list of react-native study material : [Repo link](https://github.com/jondot/awesome-react-native)_
 
 Navigation in React Native is generally enabled through third party modules. Although native node modules to do 
 the same can obviously developed, but the already existing ones work pretty well with practically no downsides. 
@@ -131,4 +131,4 @@ animations can be made. A combination of the stack and tab navigators could be u
 very complex workflow. As always, there is a ton more to this, however this should provide for a gentle introduction, and should also suffice for simple applications. 
 
 
-That was my 2 cents on how to do navigate within React-Native, the reference code for this post can be found [here](https://github.com/yashYRS/Learning_ReactNative/tree/master/NavigationDemo). Hope this helped!!
+That was my 2 cents on how to do navigate within React-Native, the reference code for this post can be found [here](https://github.com/yashYRS/Learning_ReactNative/tree/master/Navigation). Hope this helped!!
