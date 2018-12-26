@@ -3,9 +3,8 @@ layout: page
 title: Contact
 ---
 
-Feel free to drop in some suggestions to my email or whatsapp or my twitter handle, if you want me to write about something, 
-or you have any feedback in general. 
+Feel free to drop in some suggestions to my email/whatsapp/twitter-handle
 
-	Email : yash.raj2@learner.manipal.edu
-	Phone Number : +91-8334881812
-	Twitter : yashYRS
+Email : yash.raj2@learner.manipal.edu
+Phone Number : +91-8334881812
+Twitter : [yashYRS](https://twitter.com/intent/tweet?text=%40yashYRS)
