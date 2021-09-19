@@ -1,14 +1,18 @@
 ---
 layout: page
-title: Hey There!
+title: A brief history of Me ;)
 ---
 
-I am currently a 3rd year student pursuing an under graduate course in Computer Science Engineering from Manipal Institute of Technology. I am inclined towards research in fields pertaining to Artificial Intelligence, although I am equally fascinated with anything related to Computers in general. Have done some projects and internships in a bid to further my knowledge.
+I am Computer Science Graduate from Manipal Institute of Technology, currently working as a Machine Learning Engineer at [Glib](https://glib.ai/). I am part of the R&D team, and our primary focus is to bring out a semblance of structure to the myriad unstructured formats in which financial documents are generated.
+
+Prior to this, I was an intern at Samsung R&D Bangalore, where I worked in the On-Device AI division on projects that aimed at improving user's interaction with screenshots. My role dabbled from training models for script identification, to data augmentation for text localization in screenshots.
+
+I have long been inclined towards exploring Natural Language Processing, although I am equally fascinated with anything related to AI in general. I wish to pursue my masters and hopefully a PhD as well in future, and contribute to the research community in a meaningful way. 
 
 Link to my [Résumé](https://github.com/yashYRS/yashYRS.github.io/raw/master/cv.pdf)
 
 
-Feel free to drop in some suggestions to my email/twitter-handle
+Looking forward to suggestions, criticisms and possible collaborations.
 
 Email : yashsarrof@outlook.com<br>
 Twitter : [yashYRS](https://twitter.com/yashyrs)

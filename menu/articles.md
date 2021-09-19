@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Technical Articles
+title: Disourses (that hopefully aren't redundant) on varied topics from Computer Science
 ---
 <ul class="posts">
   {% for post in site.posts %}
