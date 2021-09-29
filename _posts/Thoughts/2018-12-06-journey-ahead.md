@@ -1,8 +1,8 @@
 ---
 layout : post
-title : "Journey Ahead"
+title : "A guess about where we are headed"
 date : 2018-12-06
-categories : thoughts 
+categories : Thoughts
 ---
 
   There hasn't been such an outlandish spur of developments and advancements as in the past decade since perhaps the 17th 

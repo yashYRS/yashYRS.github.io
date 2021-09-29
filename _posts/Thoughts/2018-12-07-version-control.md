@@ -2,7 +2,7 @@
 layout : "post"
 title : "Tryst with Version Control"
 date : 2018-12-07
-categories : experiences
+categories : Thoughts
 ---
 
 For everyone who starts out with coding, one of the most herculean tasks appears to be to learn **git**. It sounds boring, and to some even unnecessary. However let me clear this out at the very onset, version control is paramount in development of any project big or small, and you only realize how much you have missed git all your life, after using it first hand. Yep, it is a silent guardian, a watchful protector, and our Dark Knight in the development universe.  *Just had to get a batman reference somewhere in my blog*. I will share a few instances when the lack of having used version control proved costly for me  - 

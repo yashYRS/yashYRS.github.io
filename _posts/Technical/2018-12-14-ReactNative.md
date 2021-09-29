@@ -2,7 +2,7 @@
 layout : post
 title : "Working my way around React Native"
 date : 2018-12-14
-categories : Technical/React-Native-series 
+categories : Technical
 ---
 
 During my intership at Optimize IT Systems, my job entailed creating a basic curriculum for React Native, since the company wanted to migrate towards developing mobile applications with it. This post contains snippets from that curriculum along with a mention of the potential pitfalls that one might fall into as a beginner.
