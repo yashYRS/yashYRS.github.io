@@ -1,0 +1,74 @@
+name: Yash Sarrof
+email: yashsarrof@outlook.com
+website_name: yashyrs.github.io
+website_url: https://yashyrs.github.io
+location: Kolkata, India
+last-updated: 4th October 2021 # commit date
+
+sections:
+  - experience
+  - education
+  - projects
+  - skills
+
+data:
+  education:
+    title: Education
+    items:
+      - Manipal Institute of Technology:
+          date: 2016 - 2020
+          subtitle: B. Tech Computer Science and Engineering
+          content: |
+              - Minor in Intelligent Systems
+              - CGPA: 9.09/10
+
+  experience:
+    title: Work Experience
+    items:
+      - ML Engineer:
+          date: December 2020 - Present
+          subtitle: |
+              [Glib.ai](https://glib.ai/)
+          content: |
+              - Work in the R&D Department, with a primary focus on developing algorithms
+              that extract relevant information from unstructured financial documents
+      - Intern in the On Device AI division:
+          date: January 2020 - June 2020
+          subtitle: |
+              [Samsung R&D Bangalore](https://research.samsung.com/sri-b)
+          content: |
+              - Designed deep learning models for text extraction and script identification 
+              - Worked on data tagging and cleanup for Samsung's Alt Z Features
+      - Project Intern:
+          date: November 2018 - July 2019
+          subtitle: |
+              [Novartis](https://www.novartis.in/)
+          content: |
+              - Implemented an end to end solution for comparing 2 sets of medical documents
+              - Built a native algorithm for finding semantic similarity between 2 sentences
+              - Designed a model to detect medical terms in any given piece of text
+      - Intern:
+          date: February 2017 - February 2019
+          subtitle: |
+              [Reaching Sky Foundation](https://www.reachingsky.org/)
+          content: |
+              - Raised funds for making of schools
+              - Raised awareness about lack of access to education at grassroots
+              - Wrote blogs focussing on how the said organisation tackles these problems
+  projects:
+    title: Selected Projects & Contributions
+    text: |
+        - [**SAdam An Adam Variant**](https://github.com/naruarjun/SADAM-reproducibility): Carried 
+        out a Reproducibility study on the paper SAdam: A Variant of Adam for Strongly Convex
+        Functions and implemented the same in Pytorch.
+        - [**Gardner's Theory of Intelligence**](https://github.com/yashyrs/SmartIndiaHackathon): A game 
+        which tries to identify the aspects of intelligence that a kid identifies with the the most
+        according to Gardner's Classification. All aspects are checked via mini-games each of which
+        is connected through an overall story line.
+  skills:
+    title: Skills
+    text: |
+        - **Languages**: Python, C, C++, Java
+        - **Deep Learning**: PyTorch, TensorFlow
+        - **Web Frameworks**: Django, Flask
+        - **Miscellaneous**: OpenCV, Docker, Git, Vim, LateX, Android
