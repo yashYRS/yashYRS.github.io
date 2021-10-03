@@ -8,6 +8,7 @@ last-updated: 4th October 2021 # commit date
 sections:
   - experience
   - education
+  - achievements
   - projects
   - skills
 
@@ -21,9 +22,23 @@ data:
           content: |
               - Minor in Intelligent Systems
               - CGPA: 9.09/10
-
+  achievements:
+    title: Accomplisments
+    text: |
+        - **Winners Smart India Hackathon 2019**: A 36 hour non-stop code sprint, organized
+          by the Government of India with over 3 lakh participants. I was the leader of 6 member
+          team that won the competition, wherein the project we worked upon comprised of a set of
+          games that would test various aspects of a child’s intelligence, based on Gardners Theory of
+          Multiple Intelligence. An AI bot would track the progress of the child playing the game, and
+          try to ascertain the leaning of the child towards a particular module of intelligence
+        - **GE HackElt, Pan India Finalists 2019**: A national level hackathon organized by General
+          Electric India. I was a part of a 3 member team that made it to the top 10. The project made
+          for the same was a Hospital Appointment Management System, that would predict the time a patient
+          would have to wait before getting a consult from a doctor of their choice. Along with it, analytics
+          would be generated for the doctors themselves, highlighting the various fallacies in the overall time
+          management in the hospital.
   experience:
-    title: Work Experience
+    title: Relevant Work Experience
     items:
       - ML Engineer:
           date: December 2020 - Present
@@ -47,28 +62,28 @@ data:
               - Implemented an end to end solution for comparing 2 sets of medical documents
               - Built a native algorithm for finding semantic similarity between 2 sentences
               - Designed a model to detect medical terms in any given piece of text
-      - Intern:
-          date: February 2017 - February 2019
-          subtitle: |
-              [Reaching Sky Foundation](https://www.reachingsky.org/)
-          content: |
-              - Raised funds for making of schools
-              - Raised awareness about lack of access to education at grassroots
-              - Wrote blogs focussing on how the said organisation tackles these problems
   projects:
     title: Selected Projects & Contributions
     text: |
         - [**SAdam An Adam Variant**](https://github.com/naruarjun/SADAM-reproducibility): Carried 
         out a Reproducibility study on the paper SAdam: A Variant of Adam for Strongly Convex
         Functions and implemented the same in Pytorch.
-        - [**Gardner's Theory of Intelligence**](https://github.com/yashyrs/SmartIndiaHackathon): A game 
-        which tries to identify the aspects of intelligence that a kid identifies with the the most
-        according to Gardner's Classification. All aspects are checked via mini-games each of which
-        is connected through an overall story line.
+        - [**Earthquake Detection System**](https://github.com/yashYRS/DetectEarthquake): A prototype to detect
+        earthquakes based on the fact that most objects in a live feed would vacillate about their positions
+        during earthquakes. The bounding boxes of static objects were kept track of, and in case their positions
+        would deviate to cross a threshold on a prefixed proportion of cameras belonging to the same area, a
+        ping for emergency would be sent out to authorities in charge.
+        - [**Parallelizing Mean Filter based Edge Detection**](https://github.com/tanmay2298/Parallel-Implementation-of-Edge-Detection-Algorithms): The
+        Adaptive edge detection process done using Weiner filter was parallelized and implemented
+        for both the CUDA and the Message Passing Interface frameworks using C
+        - [**Facial Recognition System on a Raspberry Pi**](): A biometric attendance system with an IR sensor
+        for spoof detection. A webserver to view the status of the attendance and an MQTT interface to perform
+        remote transactions on the database were also developed.
+
   skills:
     title: Skills
     text: |
         - **Languages**: Python, C, C++, Java
         - **Deep Learning**: PyTorch, TensorFlow
-        - **Web Frameworks**: Django, Flask
+        - **Web Frameworks**: Django, Flask, Angular
         - **Miscellaneous**: OpenCV, Docker, Git, Vim, LateX, Android
