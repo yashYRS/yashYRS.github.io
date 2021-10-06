@@ -22,15 +22,19 @@
         .cv-last-updated { font-style: italic; font-size: 0.8rem; }
     </style>
 
-    <div class="cv-last-updated"> Last updated: {{ cv.last-updated }} </div>
     <header>
+        <center>
+        <div class="cv-last-updated"> Last updated: {{ cv.last-updated }} </div>
         <h1 class="cv-name">{{cv.name}}</h1>
+        </center>
     </header>
 
     <section class="cv-basic-info">
+        <center>
         <span class="cv-basic-info-item"><i class="fa fa-envelope"></i>&nbsp;<a href="mailto:{{cv.email}}">{{cv.email}}</a></span>
         <span class="cv-basic-info-item"><i class="fa fa-mouse-pointer"></i>&nbsp;<a href="{{cv.website_url}}">{{cv.website_name}}</a></span>
         <span class="cv-basic-info-item"><i class="fa fa-map-marker"></i>&nbsp;{{cv.location}}</span>
+        </center>
     </section>
 
     {% for sec_id in cv.sections %}

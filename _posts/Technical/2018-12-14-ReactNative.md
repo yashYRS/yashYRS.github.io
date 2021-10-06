@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "Working my way around React Native"
+title : "React Native, thou aren't as complex as thou seem"
 date : 2018-12-14
 categories : Technical
 ---
