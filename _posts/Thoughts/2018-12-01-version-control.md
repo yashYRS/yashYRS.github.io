@@ -1,7 +1,7 @@
 ---
 layout : "post"
-title : "Tryst with Version Control"
-date : 2018-12-07
+title : "Tryst with Git"
+date : 2018-12-01
 categories : Thoughts
 ---
 
