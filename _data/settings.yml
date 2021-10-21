@@ -7,7 +7,7 @@ google-ID: 'UA-112060364-1'
 
 menu:
 - {name: 'Résumé', path: 'resume', url: ''}
-- {name: 'Technical Articles', path: 'menu', url: 'articles.html'}
+- {name: 'CS Articles', path: 'menu', url: 'articles.html'}
 - {name: 'Thoughts', path: 'menu', url: 'thoughts.html'}
 - {name: 'Projects', path: 'menu', url: 'projects.html'}
 

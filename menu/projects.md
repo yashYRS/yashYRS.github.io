@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Selected Projects
+title: Overview of some of my Projects
 ---
 <ul class="posts">
   {% for post in site.posts %}

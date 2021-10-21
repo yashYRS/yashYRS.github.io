@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fellowship of posts on CS with pop culture titles
+title: Using clickbaits to share what I have learnt
 ---
 <ul class="posts" list-style-type="circle">
   {% for post in site.posts %}

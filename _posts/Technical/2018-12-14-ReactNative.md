@@ -617,4 +617,4 @@ A sample code snippet, which is self explanatory is provided here,
 
 Here the data component is the array where the search will be performed, and from which the results will be finally refined. Other components are self explanatory. For discovering other functions associated with the SearchBar component, [link](https://react-native-training.github.io/react-native-elements/docs/searchbar.html)
 
-_Note : The reference code for this post can be found [here](https://github.com/yashYRS/Learning_ReactNative). Haven't added details on setting up a React Native Environment, since there are a lot of references available for that. I recommend going through this [repository](https://github.com/jondot/awesome-react-native) if you wish to explore React Native in more depth
+_Note : Haven't added details on setting up a React Native Environment, since there are a lot of references available for that. I recommend going through this [repository](https://github.com/jondot/awesome-react-native) if you wish to explore React Native in more depth

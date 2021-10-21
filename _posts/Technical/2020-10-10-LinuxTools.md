@@ -6,10 +6,17 @@ categories : Technical
 ---
 
 get their contact details, for references, gaining knowledge about their respective fields or ask any doubts in general about how the industry actually functions, done as a part of the 4th Semester Database Systems Lab Capstone Project
+
 ### Newsboat
+
 
 ### i3
 
 ### Ranger
 
-### Zsh
+### Brave Browser
+
+
+### keybr.com
+
+Touch typing is the way to go, but I have increased my typing speed from 
