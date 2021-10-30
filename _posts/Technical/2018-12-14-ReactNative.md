@@ -7,7 +7,7 @@ categories : Technical
 
 During my intership at Optimize IT Systems, my job entailed creating a basic curriculum for React Native, since the company wanted to migrate towards developing mobile applications with it. This post contains snippets from that curriculum along with a mention of the potential pitfalls that one might fall into as a beginner.
 
-## Navigation between Screens in React Native
+### Navigation between Screens in React Native
 Navigation in React Native is generally enabled through third party modules. Although native node modules to do the same can obviously developed, but the already existing ones work pretty well with practically no downsides. I recommend 'react-navigation', [This](https://medium.com/the-react-native-log/thousand-ways-to-navigate-in-react-native-f7a1e311a0e8) contains a comparative study with regards to the options available.
 
 Installing React Navigation can be done in two ways -
@@ -107,12 +107,12 @@ Now these passed values need to be retrieved as well, which can be done by addin
 Appropriately modules ( third party modules and classes referred ) have to be imported for Navigation to work properly. Also by playing around with styling and by modifying parameters, highly complex navigation techniques replete with animations can be made. A combination of the stack and tab navigators could be used to provide for the framework in case of a very complex workflow. 
 
 
-## Working with Databases
+### Working with Databases
 A local database is almost a bare-minimum for the making of even the simplest of apps, and like any other technologies, 
 there's a lot to choose from in terms of what one might want to use in their application, to accomplish local storage. 
 [This](https://aboutreact.com/local-database-in-react-native-app/) offers a great overall outlook for the options available out there to implement local database in React-Native apps.
 
-### Sqlite :
+#### Sqlite :
 It uses a third party module called : 'react-native-sqlite-storage', thus same needs to be added by yarn 
 	
 	yarn add react-native-sqlite-storage 
@@ -157,7 +157,7 @@ in React Native is slower compared to other alternative, for eg : Realm.
 
 Thus for illustration a sample operation of all the operations are being shown below : 
 
-#### Query a table
+##### Query a table
 	db.transaction(tx => {
 	      		tx.executeSql(
 	        		'SELECT * FROM table_user where user_id = ?', [this.search_user_id],
@@ -168,7 +168,7 @@ Thus for illustration a sample operation of all the operations are being shown b
 			}
 		);
 
-#### Insert into a table
+##### Insert into a table
 	db.transaction(tx => {
 	      		tx.executeSql(
 	        		'INSERT INTO table_user (user_name, user_id) VALUES (?,?)', [this.state.name,this.state.id],
@@ -179,7 +179,7 @@ Thus for illustration a sample operation of all the operations are being shown b
 			}
 		);
 
-#### Create a table
+##### Create a table
 	db.transaction(tx => {
 	      		tx.executeSql( 
 	      			'CREATE TABLE IF NOT EXISTS table_user(user_id INTEGER PRIMARY KEY AUTOINCREMENT, user_name VARCHAR(20)' 
@@ -187,7 +187,7 @@ Thus for illustration a sample operation of all the operations are being shown b
 			}
 		);
 
-#### Update values in a table
+##### Update values in a table
 	db.transaction(tx => {
 	      		tx.executeSql(
 	        		'UPDATE table_user set user_id = ?. user_name = ?', [this.state.id, this.state.name],
@@ -199,7 +199,7 @@ Thus for illustration a sample operation of all the operations are being shown b
 		);
 
 
-#### Delete
+##### Delete
 	db.transaction(tx => {
 	      		tx.executeSql(
 	        		'DELETE FROM table_user where user_id = ?', [this.search_user_id],
@@ -215,7 +215,7 @@ especially if the state variables are being used to change/update/insert values 
 if the required type is Integer for a particular column in database. A good reference for an IOS-app demo for SQLite is available in this blog [post](https://brucelefebvre.com/blog/2018/11/06/react-native-offline-first-db-with-sqlite/).
 
 
-### Realm :
+#### Realm :
 
 Realm is not a database in a very traditional sense, since it cannot be used universally. It has been designed specifically 
 for mobile devices, although it makes up for this disadvantage with substantially faster speed, and it's simplicity of design.
@@ -245,7 +245,7 @@ And inside the getPackage() function after MainReactPackage(),
 		
 	new RealmReactPackage() ;
 
-#### Making a Schema
+##### Making a Schema
 Making a schema is equivalent to designing the table structure in SQL. However, the functionality provided by Realm, enables making even extremely complex schemas, very easy to design, since overall design is very similar to the object-oriented design.
 
 	cont Xschema = {
@@ -265,7 +265,7 @@ Here, *name : 'X'* isn't the property of the network, it is instead serving the 
 Appending a **[]** at the end of some datatype implies that the entity is a list containing those datatypes variables, similarly  a **?** implies that using the parameter is optional. Again, there is a lot more options to make better schemas, and a look into the [docs](https://realm.io/docs/javascript/latest/) might prove worthwhile. 
 
 
-#### Insert a Schema
+##### Insert a Schema
 The following code block can be used for inserting an entry in some table, in realm referred to as making a object of a schema
 
 	realm.write( ()=>  {
@@ -279,7 +279,7 @@ The following code block can be used for inserting an entry in some table, in re
 
 Thus, after opening the 'X' type schema, we create an object of that instance, the reference for which may or may not be saved, as per needs. It must be noted that the realm object needs to be passed, across the screens for it to be accessible everywhere, or the path to the same needs to be passed as props.
 
-#### Query a Schema
+##### Query a Schema
 
 1. Simplest query , return all the objects of a particular schema. 
 	
@@ -291,7 +291,7 @@ Thus, after opening the 'X' type schema, we create an object of that instance, t
 
 where a is the collection of all objects of that particular schema, as said before
 
-#### Delete a Schema
+##### Delete a Schema
 For deleting entities, we will need object references of everything we need to delete, thus we use the query function first to get those references, then we call the delete operation. An example - 
     
     realm.write(() => {
@@ -302,7 +302,7 @@ For deleting entities, we will need object references of everything we need to d
     });
 
 
-#### Update a Schema
+##### Update a Schema
 Update is very similar to delete, we simply get the applications, and then we simply update using the object references, just as assignment to any other object is done. An example : 
 
     realm.write(() => {
@@ -315,7 +315,7 @@ Update is very similar to delete, we simply get the applications, and then we si
         }	
 
 
-## Shared Preferences
+### Shared Preferences
 Shared Preferences in Mobile Application Development refers to the data that is stored in the app itself, for customizing the overall experience of using the application for a user. These are data that persists, even if the the app is closed or the device is stopped. Also these data values can be accessed across the application, as in every page in the app will have access to this data. 
 
 One of the simplest ways to implement this feature is to use the AsyncStorage functionality provided by react-native as a basic component. Thus since it is not a third party module, no extra setup is required for using this. A disadvantage of Async Storage is that, although the data stored is persistent, it stores everything in an unencrypted form. However, in most use cases, the data stored via Shared preferences isn't all that sensitive and so is widely used. 
@@ -361,7 +361,7 @@ Delete Data -
     }
 
 
-## Card View
+### Card View
 
 CardView, a very popular Material Design resembles a frame, and has a very elegant styling already coded up for itself. It is a very potent tool to use, when information of the same kind needs to be displayed somewhere in the application. 
 is the [docs](https://developer.android.com/reference/android/support/v7/widget/CardView) detail the the philosophy behind this design.
@@ -392,7 +392,7 @@ Wrap some content in it,
 
 And whatever is wrapped gets displayed, we don't need to worry about the size of the card, it adjusts according to the content it has, although we need to careful of the fact that the screen size might not accomodate all the cards. Thus we wrap the overall Content within ScrollView, so that we can view everything there, 
 
-#### Common errors
+##### Common errors
 
 - SrollView Child layout must be applied through .... error type : This happens because in ScrollView, we can't have styling 
 done through the normal *style* option, instead we have to use : 
@@ -404,7 +404,7 @@ component ( here someStyle in the styles Stylesheet ) makes the code work,
 	
 	flexGrow : 1 
 
-## Custom Camera
+### Custom Camera
 
 Since, the **Camera** component used here is an in-built component, provided by the expo class, using it doesn't require any kind of external library installation. However, for using the Camera in Android , the app should have the necessary mandation to use the device's Camera. For the same, we use the **Permission** component provided by expo. The Camera component simply gives us the view of the camera itself, it does not involve using intents to use the default Camera App in a given android device. Thus every functionality of the camera, from mechanisms to click pictures, to deleting pictures, to flipping the camera needs to be done explicity through code. Again, the photos captured do not get saved themselves, they need to be save explicitly by connecting the **FileSystem** component. using any database mechanism. Here we use 'react-native-simple-store' which is a 3rd party module (thus needs to be added manually using package managers) , a wrapper for Async-Storage, 
 
@@ -483,7 +483,7 @@ Thus inside the *then* construct for the code to capture pictures, we put in mec
 This function simply moves the photo from the obscure location it is at, to a location somewhere either local or external (in that case, we have to take permission to access device content's as well) in the app. *photo_data* here is used as a temporary variable to eventually store the photo in a database (Async Storage) for the app. So at a later point in time, we can view the photo by retrieving it using the key that was used to store it in the first place. A lot more can be done, in terms of enhancing functionalities of the camera, styling the app, some other 3rd party modules can be used that aren't supported by expo, and thus projects for those can be made using 'react-native init'. However, using expo components always holds the advantage of not having to install external packages, also there not being any effort whatsover to make changes specific to any particular platform ( neither Android nor IOS ). 
 
 
-## Integrating Maps
+### Integrating Maps
 
 Before integrating Maps add the third party modules
 ```	
@@ -576,7 +576,7 @@ Say, if we get the coordinates of a new location through some other means in our
 The ref variables are in line with what we had set while rendering the components, also we assume the new latitude and longitude values are stored in state component of the application.
 
 
-### Geocoding
+#### Geocoding
 Geocoding is the process of converting human readable addresses to latitudes and longitudes, thus while searching for some location, Geocoding comes into place, since the user would be putting in the name of the addresses, and thus we need to generate the corresponding geocoded values, for any further application, example getting the route. 
 
 Thus, for doing the same add one more package to our project, 
