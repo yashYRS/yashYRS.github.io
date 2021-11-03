@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "Using Gardner's Intelligence Theory to gauge Aptitude"
+title : "Using Gardner's Multiple Intelligence Theory to gauge aptitude of children"
 date : 2020-03-10
 categories : Projects
 ---

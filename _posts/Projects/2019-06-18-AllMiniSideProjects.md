@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "A brief overview of some of my favourite mini side projects"
+title : "Some of my favourite mini-side projects"
 date : 2019-06-18
 categories : Projects
 ---

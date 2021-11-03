@@ -19,9 +19,10 @@
 
 body {
   font-family: "Inconsolata", serif;
-  font-size: 18px;
+  font-size: 22px;
   color: #0F1A37;
   line-height: 2rem;
+  text-align: justify;
   background-image: linear-gradient(to right, rgba(10,30,40,0.35), rgba(10,30,40,0));
 }
 
@@ -83,7 +84,7 @@ hr {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 685px;
+  width: 720px;
 }
 
 /*48em*/
@@ -242,7 +243,7 @@ hr {
 
 .social-icons a {
   color: black;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 @media (max-width: 30em) {

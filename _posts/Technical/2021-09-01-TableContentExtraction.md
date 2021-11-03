@@ -9,3 +9,36 @@ Table extraction fall under the umbrella of Document Intelligence, a relatively 
 
 
 ** Insert image showing some different and difficult kind of tables that might exist.
+
+### Initial Approaches
+
+- The first efforts to compartmentalize a report into tabular and non tabular areas were made in 2016, where existing object detection architectures (CNNs, R - CNNs and their variants) were trained to detect tables in pdfs. (ref here)
+
+- In 2018, an end to end framwework was recommended in order to extract semantic structures of tables and paragraphs from documents. Pretrained word embeddings were in a fully conventional network to get decent results. (ref here)
+
+- In 2019, a Graph Convolutional Network was proposed, which combined visual and textual cues from a document for achieving the same result of identifying semantic structures. (ref here)
+
+### Layout LM
+
+Almost every iteration brought with itself promising results, and had scope of application in real world datasets, 
+However 2 aspects which the inital approaches hadn't tried, and was first explored by LayoutLM (ref here), were 
+- Avoiding reliance on labelled data, since the number of such publicly known datasets were limited
+- Trying joint pretrained models taking both textual and layout information into account. Up until now, the pretrained models were either CV or NLP models.
+
+Proposed by a team at Microsoft Research Asia, LayoutLM constituted a novel approach to simply pretraining for document AI tasks, and recommended fine tuning for subsequent tasks as per need. At its core, LayoutLM can be considered as an extension of BERT to document AI tasks, as the inspiration in the model architecture is quite evident.
+
+
+##### Model Architecture
+
+Pre training
+
+Layout LM v2 -> 
+
+
+GTE -> 
+
+
+Datasets -> 
+
+
+### References

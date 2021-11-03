@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Anecdotes, Opinions and some wild postulations
+title: Anecdotes, Opinions & wild Postulations
 ---
 <ul class="posts">
   {% for post in site.posts %}
