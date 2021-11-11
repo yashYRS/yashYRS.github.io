@@ -1,0 +1,466 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>
+    
+      Instead of demanding a seat, build your table or better yet extract some tables
+    
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  <link rel="shortcut icon" href="#" />
+  <!-- Use Atom -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="&gt;_  cd /home/" />
+  <!-- Use RSS-2.0 -->
+  <!--<link href="/rss-feed.xml" type="application/rss+xml" rel="alternate" title=">_  cd /home/ |  "/>
+  //-->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Custom Fonts -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:800,400,300,600,700|Inconsolata' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <!-- Use Jekyll SEO plugin -->
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Instead of demanding a seat, build your table or better yet extract some tables | _ cd /home/</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Instead of demanding a seat, build your table or better yet extract some tables" />
+<meta name="author" content="Yash Sarrof" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Table extraction fall under the umbrella of Document Intelligence, a relatively new research topic that deals with analzying and understanding business documents. The documents vary in style, layouts, fonts and generally have a complex template. Since digitisation of documents is a recent phenonmenon, majority of such documents are scanned copies of their printed counterparts. The poor quality of images, skew arising due to scans made in haste compound the difficulty of the problem. Especially in the financial domain, where the significance of every number and alphabet is paramount. Manual supervision along with some software aid is the current norm, however each day, efforts are made to reduce the amount of interventions required by humans. Extracting tables from these documents is one such sub domain, which has attracted a lot of researchers. Tables do not have a specified way of being constructed, and often the artistic proclivities involved in making tables look more presentable, add a layer to the difficulty of the problem. Most of the information in tables would make sense, if the relationships and contexts are known prior, as tables generally contain limited data. I will attempt to give an intuition behind some of the work being carried out in this area, and hopefully spark enough interest in anyone reading this, to delve deeper in the field." />
+<meta property="og:description" content="Table extraction fall under the umbrella of Document Intelligence, a relatively new research topic that deals with analzying and understanding business documents. The documents vary in style, layouts, fonts and generally have a complex template. Since digitisation of documents is a recent phenonmenon, majority of such documents are scanned copies of their printed counterparts. The poor quality of images, skew arising due to scans made in haste compound the difficulty of the problem. Especially in the financial domain, where the significance of every number and alphabet is paramount. Manual supervision along with some software aid is the current norm, however each day, efforts are made to reduce the amount of interventions required by humans. Extracting tables from these documents is one such sub domain, which has attracted a lot of researchers. Tables do not have a specified way of being constructed, and often the artistic proclivities involved in making tables look more presentable, add a layer to the difficulty of the problem. Most of the information in tables would make sense, if the relationships and contexts are known prior, as tables generally contain limited data. I will attempt to give an intuition behind some of the work being carried out in this area, and hopefully spark enough interest in anyone reading this, to delve deeper in the field." />
+<link rel="canonical" href="http://localhost:4000/technical/TableContentExtraction.html" />
+<meta property="og:url" content="http://localhost:4000/technical/TableContentExtraction.html" />
+<meta property="og:site_name" content="_ cd /home/" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-01T00:00:00+05:30" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Instead of demanding a seat, build your table or better yet extract some tables" />
+<script type="application/ld+json">
+{"dateModified":"2021-09-01T00:00:00+05:30","datePublished":"2021-09-01T00:00:00+05:30","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/technical/TableContentExtraction.html"},"url":"http://localhost:4000/technical/TableContentExtraction.html","author":{"@type":"Person","name":"Yash Sarrof"},"description":"Table extraction fall under the umbrella of Document Intelligence, a relatively new research topic that deals with analzying and understanding business documents. The documents vary in style, layouts, fonts and generally have a complex template. Since digitisation of documents is a recent phenonmenon, majority of such documents are scanned copies of their printed counterparts. The poor quality of images, skew arising due to scans made in haste compound the difficulty of the problem. Especially in the financial domain, where the significance of every number and alphabet is paramount. Manual supervision along with some software aid is the current norm, however each day, efforts are made to reduce the amount of interventions required by humans. Extracting tables from these documents is one such sub domain, which has attracted a lot of researchers. Tables do not have a specified way of being constructed, and often the artistic proclivities involved in making tables look more presentable, add a layer to the difficulty of the problem. Most of the information in tables would make sense, if the relationships and contexts are known prior, as tables generally contain limited data. I will attempt to give an intuition behind some of the work being carried out in this area, and hopefully spark enough interest in anyone reading this, to delve deeper in the field.","headline":"Instead of demanding a seat, build your table or better yet extract some tables","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="/">>_  cd /home/</a>
+    <small class="masthead-subtitle"> </small>
+    <div class="menu">
+  <nav class="menu-content">
+    
+      <a href="/resume/">Résumé</a>
+    
+      <a href="/menu/articles.html">CS Articles</a>
+    
+      <a href="/menu/thoughts.html">Thoughts</a>
+    
+      <a href="/menu/projects.html">Projects</a>
+    
+  </nav>
+  <nav class="social-icons">
+    
+  
+  
+    <a href="https://www.github.com/yashYRS" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="https://twitter.com/yashYRS" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="https://www.linkedin.com/in/yash-sarrof-094364142/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="yashsarrof@outlook.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  
+
+  </nav>
+</div>
+
+  </h3>
+</header>
+
+
+    <div class="post-container">
+      <h2>
+  Instead of demanding a seat, build your table or better yet extract some tables
+</h2>
+
+
+
+<p>Table extraction fall under the umbrella of Document Intelligence, a relatively new research topic that deals with analzying and understanding business documents. The documents vary in style, layouts, fonts and generally have a complex template. Since digitisation of documents is a recent phenonmenon, majority of such documents are scanned copies of their printed counterparts. The poor quality of images, skew arising due to scans made in haste compound the difficulty of the problem. Especially in the financial domain, where the significance of every number and alphabet is paramount. Manual supervision along with some software aid is the current norm, however each day, efforts are made to reduce the amount of interventions required by humans. Extracting tables from these documents is one such sub domain, which has attracted a lot of researchers. Tables do not have a specified way of being constructed, and often the artistic proclivities involved in making tables look more presentable, add a layer to the difficulty of the problem. Most of the information in tables would make sense, if the relationships and contexts are known prior, as tables generally contain limited data. I will attempt to give an intuition behind some of the work being carried out in this area, and hopefully spark enough interest in anyone reading this, to delve deeper in the field.</p>
+
+<figure class="image">
+  <center>
+  <img src="/images/table_extraction/hard1.png" alt="Tables not following a pattern in Multi column layouts" />
+  <figcaption>Tables not following a pattern in Multi column layouts</figcaption>
+  </center>
+</figure>
+<figure class="image">
+  <center>
+  <img src="/images/table_extraction/hard2.png" alt="Variations in appearance of tables" />
+  <figcaption>Variations in appearance of tables</figcaption>
+  </center>
+</figure>
+
+<h3 id="popular-datasets">Popular Datasets</h3>
+
+<p>Some popular datasets that have been curated over the last few years in order to facilitate testing and training of Document AI tasks and will be used in this post are briefly described here. The disparity in the number of samples across datasets depends on whether the entire dataset was manually curated or generated automatically in a semi-supervised fashion.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dataset Name</th>
+      <th>Number of Samples</th>
+      <th>Document categories covered</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://ir.nist.gov/cdip/">IIT-CDIP</a> (Illinois Institute of Technology Complex Document Information Processing Test Collection)</td>
+      <td>Made from over 6 Million Scanned documents</td>
+      <td>Spans all kinds of documents</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td><a href="https://www.cs.cmu.edu/~aharley/rvl-cdip/">RVL-CDIP</a> (Ryerson Vision Lab Complex Document Information Processing)</td>
+      <td>400K grayscale images (320K training, 40K validation, and 40K test images)</td>
+      <td>Subset of IIT-CDIP</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td><a href="https://arxiv.org/pdf/2103.10213.pdf">SROIE</a> (Scanned Receipt OCR and Information Extraction)</td>
+      <td>1000</td>
+      <td>Scanned Receipts</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td><a href="https://guillaumejaume.github.io/FUNSD/">FUNSD</a> (Form Understanding in Noisy Scanned Documents)</td>
+      <td>199 fully annotated forms, 31485 words, 9707 semantic entities, 5304 relations Samples</td>
+      <td>Exclusively contains forms in scanned documents</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td><a href="https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge">CORD</a> (COVID-19 Open Research Dataset)</td>
+      <td>Curated from 500K scholarly articles</td>
+      <td>Articles about COVID-19, SARS-CoV-2, and related coronaviruses</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/applicaai/kleister-nda">Kleister NDA</a></td>
+      <td>540 NDAs, 3299 unique pages</td>
+      <td>Scanned and born-digital long formal Non Disclosure Agreements</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td><a href="https://paperswithcode.com/dataset/docvqa">Doc VQA</a></td>
+      <td>12767 Document Images</td>
+      <td>Industrial documents including typewritten, printed, handwritten and born-digital text</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/ibm-aur-nlp/PubLayNet">PubLayNet</a></td>
+      <td>made from over 1 million PDF articles</td>
+      <td>Scientific articles and reports in the medical domain</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td><a href="https://www.primaresearch.org/dataset/">PRImA</a> (Pattern Recognition and Image Analysis) Layout Anaylsis Dataset</td>
+      <td>305 ground-truthed images</td>
+      <td>Magazines and techinical articles spanning multiple domains</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/doc-analysis/TableBank">Table Bank</a></td>
+      <td>417,234 high quality labeled tables</td>
+      <td>Tables extracted from LaTeX and Word documents</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td><a href="https://dell-research-harvard.github.io/HJDataset/">HJ</a> Historical Japanese Dataset</td>
+      <td>Over 250,000 layout element annotations of seven types</td>
+      <td>Complex layouts from all kinds of historical documents</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="initial-approaches">Initial Approaches</h3>
+
+<ul>
+  <li>
+    <p>The first efforts to compartmentalize a report into tabular and non tabular areas were made in 2016, where existing object detection architectures (CNNs, R - CNNs and their variants) were trained to detect tables in pdfs.</p>
+  </li>
+  <li>
+    <p>In 2018, an end to end framwework was recommended in order to extract semantic structures of tables and paragraphs from documents. Pretrained word embeddings were in a fully conventional network to get decent results.</p>
+  </li>
+  <li>
+    <p>In 2019, a Graph Convolutional Network was proposed, which combined visual and textual cues from a document for achieving the same result of identifying semantic structures.</p>
+  </li>
+</ul>
+
+<h3 id="layout-lm">Layout LM</h3>
+
+<p>Almost every iteration brought with itself promising results, and had scope of application in real world datasets, 
+However 2 aspects which the inital approaches hadn’t tried, and was first explored by LayoutLM <a class="citation" href="#xu2020layoutlm">(Xu et al., 2020)</a>, were</p>
+<ul>
+  <li>Avoiding reliance on labelled data, since the number of such publicly known datasets were limited</li>
+  <li>Trying joint pretrained models taking both textual and layout information into account. Up until now, the pretrained models were either CV or NLP models.</li>
+</ul>
+
+<p>Proposed by a team at Microsoft Research Asia, LayoutLM constituted a novel approach to simply pretraining for document AI tasks, and recommended fine tuning for subsequent tasks as per need. LayoutLM extends the core idea used in BERT to gain better performance in document AI tasks.</p>
+
+<h4 id="modifications-made-to-the-bert-pretraining-stage">Modifications made to the BERT pretraining stage:</h4>
+
+<ul>
+  <li>Along with the word embeddings, embeddings to leverage the visual layout information present in the documents were added.
+    <ul>
+      <li>2d Position Embedding: The top left corner of the document page is considered to be the origin, and the bounding box for the word in the resulting coordinate system is stored as (x0, y0, x1, y1), with x0, y0 representing the upper left, and (x1, y1) representing the bottom right corner respectively. This helps model sparsity of the current word in the page, vicinity to other words, size of the current word relative to others and other spatial features, that would otherwise not be stored in case of traditional word embeddings.</li>
+      <li>Image Embedding:
+        <ul>
+          <li>Word Image Embedding: These image embeddings are generated by a faster R-CNN, which is fed the document image and the Region of Interest is specified by an OCR system that gives the bounding box results of the word in question.</li>
+          <li>[CLS] token Image Embedding: Using the same faster R-CNN, embedding of the entire document image is generated the Region of Interest set as the entire page. This is generated to assist in the downstream fine tuning tasks.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>The pretraining task of Masked Language Modelling(MLM) changed to Masked Visual Language Model(MVLM). Just as 15% of the text tokens were masked in the original task. Here, word embedding is masked but the 2d Positional embeddings are retained, thereby utilizing language contexts in conjunction with spatial information to predict the masked token.</p>
+  </li>
+  <li>The pretraining task of Next Sentence Prediction (NSP) changed to Multi Label Document Classification (MDC). This change was made to encapsulate the knowledge from different document domains and thus generate better document level representations.</li>
+</ul>
+
+<h4 id="layoutlm-fine-tuning">LayoutLM Fine tuning:</h4>
+
+<p>The fine tuning stage in LayoutLM is virtually identical that of BERT, differing only in the  3 downstream tasks were carried out viz. Form understanding using the FUNSD dataset, receipt information extraction using the SROIE dataset, and finally document classification on the RVL-CDIP dataset. The exact hyperparameters for each of the tasks differ and can be found in the paper. The overall idea of fine tuning is still the same, however slight improvements to all of these tasks as well as on other document AI tasks are constantly being made.</p>
+
+<h4 id="sample-pipeline">Sample Pipeline:</h4>
+
+<p>The document image is fed into the OCR system, which in turn generates the bounding boxes of each individual word in the page. Each coordinate x0, x1, y0, y1 along with the actual text are converted into a embedding vector, which in turn is concatenated. These embeddings are used to get pretrained LayoutLM embeddings. Parallely, the bounding boxes of each individual word along with the original document image is also fed into a faster RCNN, which generates the image embeddings. The image embedding and the pretrained LayoutLM embedding are combined and used for all downstream tasks.</p>
+
+<figure class="image">
+  <center>
+  <img src="/images/table_extraction/LayoutLMArchitecture.png" alt="Sample Input for Layout LM" />
+  <figcaption>Sample Input for Layout LM</figcaption>
+  </center>
+</figure>
+
+<h3 id="layout-lm-v2">Layout LM v2</h3>
+
+<p>Research continued in 2 distinct directions in the case of document AI. The first continued with the initial approaches and tried to combine various NLP and CV individually pretrained models combining the outputs in a shallow manner. Although these methods invariably have state of the art performances on several datasets, there are a few key problems with continuing in this fashion. Such methods end up not performing well in case the document type is changed (from receipt understanding to form understanding) or in case the underlying domain is changed (medical documents to financial documents). This results in constant rework to adapt to every domain. The other approach of going about document AI tasks was the one introduced in LayoutLM, where the visual and text components are combined together to generate a unified pretrained model, and as per the task at hand, fine tuning is carried out with minimal effort. LayoutLM v2 <a class="citation" href="#xu2020layoutlmv2">(Xu et al., 2020)</a> quite evidently chose the second route, fruther improving upon the ideas from the previous iteration. Although the number of fine tuning tasks on the which the results of the improved pretrained model were shown were also increased, the more significant changes were made in the pretraining stages.</p>
+
+<ul>
+  <li><strong>Pretraining Embeddings</strong>: Unline LayoutLM, where image and text embeddings were added in the finetuning stages, in the new iteration, the image information is encoded in the pretraining itself. To account for the changes, the embeddings are divided into the following categories
+    <ul>
+      <li>Text Embedding: To encapsulate the textual meaning, the text is initially separated into segments of <code class="language-plaintext highlighter-rouge">L</code> tokens each. In case, some tokens are smaller in lenghts, <code class="language-plaintext highlighter-rouge">[PAD]</code> tokens are used to fill out the gaps. <code class="language-plaintext highlighter-rouge">[CLS]</code> and <code class="language-plaintext highlighter-rouge">[END]</code> tokens are present to denote the start and the end of the text sequence in each segment. The final embedding per token however has a few extra information encoded.
+        <ul>
+          <li>Token Position embedding (PosEmb1D): Generated based on the position of the token in the segment</li>
+          <li>Segment embedding (SegEmb): Generated based on the position of the segment amongst all the ones in the page</li>
+          <li>Token embedding (TokEmb): The text embedding as done in LayoutLM</li>
+        </ul>
+      </li>
+    </ul>
+
+\[t_i = TokEmb(w_i) + PosEmb1D(i) + SegEmb(s_i)\]
+
+\[0 ≤ i &lt; L\]
+
+    <ul>
+      <li>Visual Embedding: Visual information needs to be embedded to encapsulate information about font styles, text alignments, skew etc.
+        <ul>
+          <li>Resize document image to <code class="language-plaintext highlighter-rouge">224 X 224</code></li>
+          <li>Feed resized image into the encoder architecture. The ResNeXt-FPN architecture is used as a backbone</li>
+          <li>Average pool, the feature map output from the encoder to to get a fixed <code class="language-plaintext highlighter-rouge">W X H</code> size</li>
+          <li>Flatten the output to get a <code class="language-plaintext highlighter-rouge">W H</code> size</li>
+          <li>Each element in the resulting vector is projected linearly, to get the visual token embedding</li>
+          <li>To maintain conformity with the textual embeddings, all the visual tokens (each element of the <code class="language-plaintext highlighter-rouge">W H</code> vector) are assigned the same segment <code class="language-plaintext highlighter-rouge">[C]</code>.</li>
+          <li>Similar to textual embeddings, each element in the vector, also has a corresponding 1 D positional embedding.</li>
+        </ul>
+      </li>
+    </ul>
+
+\[v_i = Proj(VisTokEmb(I_i)) + PosEmb1D(i) + SegEmb([C])\]
+
+\[0 ≤ i &lt; WH\]
+
+    <ul>
+      <li>Layout Embedding: Layout information becomes critical to embed spatial information and is similar to the 2D positional embeddings done for LayoutLM. The encapsulated knowledge here is critical, since in most cases of complex tables, the grammar won’t make sense, unless the text’s position in a table is known apriori. The layout embedding is generated for both visual and text tokens by discretizing and normalzing the bounding boxes of these tokens.</li>
+    </ul>
+
+\[l_i = Concat(PosEmb2D_x(x_0, x_1, w), PosEmb2D_y (y_0, y_1, h))\]
+
+\[0 ≤ i &lt; WH + L\]
+  </li>
+</ul>
+
+<figure class="image">
+  <center>
+  <img src="/images/table_extraction/Layoutv2Part1.png" alt="Generating embeddings from document image in LayoutLMv2 " />
+  <figcaption>Generating embeddings from document image in LayoutLMv2 </figcaption>
+  </center>
+</figure>
+
+<ul>
+  <li><strong>Spatial Aware Attention Mechanism</strong>: The textual embeddings (<code class="language-plaintext highlighter-rouge">T</code>), and the visual embeddings (<code class="language-plaintext highlighter-rouge">V</code>) are concatenated into a single vector. The resulting vector is added to the layout embedding vector (<code class="language-plaintext highlighter-rouge">L</code>). The resulting sequence (<code class="language-plaintext highlighter-rouge">X</code>) is fed into the transformer style architecture of BERT and LayoutLM. However, owing to the mulit modal input embeddings, absolute positional embeddings aren’t modelled. The whole purpose of trying to model the local invariance in the document would fail in case standard attention mechanism is used in conjunction with  relative positional embeddings. Therefore, the standard attention mechanism is equipped with 3 different bias terms to denote the learnable 1D and 2D biases along X and Y directions.</li>
+</ul>
+
+\[\alpha_{ij} = \alpha_{ij} + b_{j-i}^{(1D)} + b_{x_j - x_i}^{(2D_x)} + b_{y_j - y_i}^{(2D_y)}\]
+
+<figure class="image">
+  <center>
+  <img src="/images/table_extraction/Layoutv2Part2.png" alt="Combining the Embeddings" />
+  <figcaption>Combining the Embeddings</figcaption>
+  </center>
+</figure>
+
+<ul>
+  <li><strong>Pretraining Tasks</strong> Although, the Masked Visual Language Model pretraining task was retained, the document classification task was scrapped and in place 2 new training strategies were introduced.
+    <ul>
+      <li><em>Text Image Alignment</em>: Randomly the portion in the document image, where a couple of text tokens lie are masked. The objective of the classifier being trained on the encoder outputs is to ascertain, whether the text token is visually present in the entire document image or not.</li>
+      <li><em>Text Image Matching</em>: To gain a more coarse multi modal understanding the alignment task is slightly modified, and this time, the entire document image being fed could be a different page altogether, and the classifier needs to determine, whether the image and text belong to the same page or not.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>It must be noted that all these tasks are carried out parallely with a combined loss function to prepare the pretrained model.</p>
+<figure class="image">
+  <center>
+  <img src="/images/table_extraction/Layoutv2Part3.png" alt="Pretraining tasks" />
+  <figcaption>Pretraining tasks</figcaption>
+  </center>
+</figure>
+
+<h3 id="global-table-extractor">Global Table Extractor</h3>
+
+<p>Both frameworks introduced till now focussed on improving their pretraining methods so as to be able to perform better on all document AI tasks, not just table detection and extraction. Global Text Extractor (GTE) <a class="citation" href="#zheng2021global">(Zheng et al., 2021)</a> takes a different approach by focussing on just extracting tables. The core idea behind GTE is to try and find individual cells from tables and relate the structure of the detected cells to one another and eventually identifying the entire table.</p>
+
+<h4 id="contributions-in-terms-of-datasets">Contributions in terms of datasets</h4>
+
+<ul>
+  <li>
+    <p>In the process of the development of such a framework, the authors managed to <strong>enhance PubTabNet</strong> by adding the cell structure annotations. The HTML version and the PDF version of the same document is matched. The HTML structure gives the logical structure of table cells, while the PDF gives the exact bounding boxes of each word. The combination of the 2 streams of data, therefore are useful in exactly annotating the boundary of each table cell.</p>
+  </li>
+  <li>
+    <p>Tables differ a lot based on domains, and thus to not improve the performance of the GTE framework, a new dataset called <strong>FinTabNet</strong> was curated. This dataset contains annual reports from S&amp;P 500 companies. Processes similar to the enhanced PubTabNet were used to provide the table and the individual cell bounding boxes.</p>
+  </li>
+</ul>
+
+<h4 id="architecture">Architecture</h4>
+
+<p>The entire GTE framework is construed by a combination of a few object detectors used in a sequence. The object detection system used here is repplacable, and can be chosen based on convenience. The 2 major components in the framework are GTE Table and GTE Cell that are used for table detection and cell structure recognition respectively.</p>
+<figure class="image">
+  <center>
+  <img src="/images/table_extraction/GTE.png" alt="Overall Architecture" />
+  <figcaption>Overall Architecture</figcaption>
+  </center>
+</figure>
+
+<ul>
+  <li><strong>GTE Table</strong>: A object detector trained to find only cells, and another to find tables are run in parallel. It should be noted that the cell detector does so, without the knowledge of the overall bounding boxes of the tables. In addition to the standard loss functions of the individual object detectors, a cell constraint penalty loss function is utilized. This loss function penalizes the outputs of the table detector by comparing the tables detected with the cells produced. A few simple rules dictated by the structure of tables are used to calculate the penalty.
+    <ul>
+      <li>The percentage of the area covered by the cells inside a table is lower than a threshold.</li>
+      <li>Area just inside the table (around the boundary of the table), has too few cells. Since it is rare for the 1st row and columns to be empty in tables</li>
+      <li>Area outside the table contains cells.</li>
+      <li>The bottom of the table does not have many cells. Absence of enough cells in the final few rows indicate that the table boundary could have been drawn earlier. 
+The hyperparameters used to specify each of the thresholds in these constraint conditions are provided in detail in the Supplementary section of the paper. The final constraint loss function is thereby used to score the table bounding boxes and again, and final predictions are made based on these new rankings.</li>
+    </ul>
+  </li>
+</ul>
+<figure class="image">
+  <center>
+  <img src="/images/table_extraction/GTETable.png" alt="Structure of GTE Table" />
+  <figcaption>Structure of GTE Table</figcaption>
+  </center>
+</figure>
+
+<ul>
+  <li><strong>GTE Cell</strong>: The table locations obtained from the output of the GTE Table component is masked in the original full page image that was fed to GTE Table. The masked image is then fed into a network to determine the kind of subsequent cell detection network it should be fed to. In some tables, cells are demarcated based on drawn lines (both horizontal and vertical), while in some cases, the boundaries of the cells are understood, and not explicitly drawn. Therefore, a preliminary check to determine, whether the drawn lines are useful demarcators or not is done by the first network. The output for the cell detectors is then post processed, so that any text box inside the table that did not overlap with any of the cell bounding boxes does not go unassigned.</li>
+</ul>
+<figure class="image">
+  <center>
+  <img src="/images/table_extraction/GTECell.png" alt="Structure of GTE Cell" />
+  <figcaption>Structure of GTE Cell</figcaption>
+  </center>
+</figure>
+
+<p>Note: The performance on individual datasets for all the frameworks mentioned here were state of the art when they were published, and the optimal hyperparameter configurations for each of the tasks are mentioned in detail in the respective papers.</p>
+
+<h3 id="references">References</h3>
+<ol class="bibliography"><li><span id="xu2020layoutlm">Xu, Y., Li, M., Cui, L., Huang, S., Wei, F., &amp; Zhou, M. (2020). Layoutlm: Pre-training of text and layout for document image understanding. <i>Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining</i>, 1192–1200.</span></li>
+<li><span id="xu2020layoutlmv2">Xu, Y., Xu, Y., Lv, T., Cui, L., Wei, F., Wang, G., Lu, Y., Florencio, D., Zhang, C., Che, W., &amp; others. (2020). LayoutLMv2: Multi-modal pre-training for visually-rich document understanding. <i>ArXiv Preprint ArXiv:2012.14740</i>.</span></li>
+<li><span id="zheng2021global">Zheng, X., Burdick, D., Popa, L., Zhong, X., &amp; Wang, N. X. R. (2021). Global table extractor (gte): A framework for joint table identification and cell structure recognition using visual context. <i>Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision</i>, 697–706.</span></li></ol>
+
+
+<span class="post-date">
+  Written on
+  
+  September
+  1st
+    ,
+  2021
+</span>
+
+    </div>
+
+    <footer class="footer">
+  
+  
+  
+    <a href="https://www.github.com/yashYRS" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="https://twitter.com/yashYRS" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="https://www.linkedin.com/in/yash-sarrof-094364142/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="yashsarrof@outlook.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  
+
+</footer>
+
+  </div>
+
+</body>
+</html>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
