@@ -3,12 +3,25 @@ layout: default
 title: Home
 ---
 
-{% for post in paginator.posts %}
-  <div class="posts">
-    {% if post.categories contains "About" %}
-      <h1> {{ post.title }} </h1>
-      <p> {{ post.content}} </p>
-  {% endif %}
-  </div>
-{% endfor %}
+   <div style="width: 100%;">
+       <div style="float:left; display:inline-block"> 
+        <center>
+        <img src="/images/self.png" width="220">
+        <h5> Yash Raj Sarrof <br>
+        ML Engineer @ <a href="https://glib.ai/">Glib.ai</a>  <br>
+        </h5>
+        </center>
+       </div>
+      {% for post in paginator.posts %}
+          {% if post.categories contains "About" %}
+            <h3> {{ post.title }} </h3>
+            <p> {{ post.content}} </p>
+            </div>
+        {% endif %}
+      {% endfor %}
+      </div>
 
+
+
+
+  </div>
