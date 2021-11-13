@@ -39,8 +39,8 @@
 <meta property="og:title" content="SAdam: An Adam variant that converges faster for convex loss functions" />
 <meta name="author" content="Yash Sarrof" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="I undertook this project along with Narayanan ER as part of the ML Reproducibility Challenge 2020. Any variation with respect to Adam with a solid mathematical backing deserves a serious look and hence SAdam got our attention, and we decided to reproduce the results shown in the paper. SAdam is an online convex optimizer that enhances the Adam algorithm by utilizing strong convexity of functions wherever possible. Although the motivation behind making these modifications are to improve performance in only convex cases, they prove to be effective even in non-convex cases." />
-<meta property="og:description" content="I undertook this project along with Narayanan ER as part of the ML Reproducibility Challenge 2020. Any variation with respect to Adam with a solid mathematical backing deserves a serious look and hence SAdam got our attention, and we decided to reproduce the results shown in the paper. SAdam is an online convex optimizer that enhances the Adam algorithm by utilizing strong convexity of functions wherever possible. Although the motivation behind making these modifications are to improve performance in only convex cases, they prove to be effective even in non-convex cases." />
+<meta name="description" content="SAdam (Wang et al., 2019) is an online convex optimizer that enhances the Adam algorithm by utilizing strong convexity of functions wherever possible. Although the motivation behind making these modifications are to improve performance in only convex cases, they prove to be effective even in non-convex cases. I undertook this project along with Narayanan ER as part of the ML Reproducibility Challenge 2020. Any variation with respect to Adam with a solid mathematical backing deserves a serious look and hence SAdam got our attention, and we decided to reproduce the results shown in the paper." />
+<meta property="og:description" content="SAdam (Wang et al., 2019) is an online convex optimizer that enhances the Adam algorithm by utilizing strong convexity of functions wherever possible. Although the motivation behind making these modifications are to improve performance in only convex cases, they prove to be effective even in non-convex cases. I undertook this project along with Narayanan ER as part of the ML Reproducibility Challenge 2020. Any variation with respect to Adam with a solid mathematical backing deserves a serious look and hence SAdam got our attention, and we decided to reproduce the results shown in the paper." />
 <link rel="canonical" href="http://localhost:4000/projects/SadamOptimizer.html" />
 <meta property="og:url" content="http://localhost:4000/projects/SadamOptimizer.html" />
 <meta property="og:site_name" content="_ cd /home/" />
@@ -49,7 +49,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="SAdam: An Adam variant that converges faster for convex loss functions" />
 <script type="application/ld+json">
-{"dateModified":"2021-03-29T00:00:00+05:30","datePublished":"2021-03-29T00:00:00+05:30","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/SadamOptimizer.html"},"url":"http://localhost:4000/projects/SadamOptimizer.html","author":{"@type":"Person","name":"Yash Sarrof"},"description":"I undertook this project along with Narayanan ER as part of the ML Reproducibility Challenge 2020. Any variation with respect to Adam with a solid mathematical backing deserves a serious look and hence SAdam got our attention, and we decided to reproduce the results shown in the paper. SAdam is an online convex optimizer that enhances the Adam algorithm by utilizing strong convexity of functions wherever possible. Although the motivation behind making these modifications are to improve performance in only convex cases, they prove to be effective even in non-convex cases.","headline":"SAdam: An Adam variant that converges faster for convex loss functions","@context":"https://schema.org"}</script>
+{"dateModified":"2021-03-29T00:00:00+05:30","datePublished":"2021-03-29T00:00:00+05:30","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/SadamOptimizer.html"},"url":"http://localhost:4000/projects/SadamOptimizer.html","author":{"@type":"Person","name":"Yash Sarrof"},"description":"SAdam (Wang et al., 2019) is an online convex optimizer that enhances the Adam algorithm by utilizing strong convexity of functions wherever possible. Although the motivation behind making these modifications are to improve performance in only convex cases, they prove to be effective even in non-convex cases. I undertook this project along with Narayanan ER as part of the ML Reproducibility Challenge 2020. Any variation with respect to Adam with a solid mathematical backing deserves a serious look and hence SAdam got our attention, and we decided to reproduce the results shown in the paper.","headline":"SAdam: An Adam variant that converges faster for convex loss functions","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -111,11 +111,11 @@
 
 
 
-<p>I undertook this project along with <a href="https://github.com/naruarjun">Narayanan ER</a> as part of the ML Reproducibility Challenge 2020. Any variation with respect to Adam with a solid mathematical backing deserves a serious look and hence SAdam got our attention, and we decided to reproduce the results shown in the paper. SAdam is an online convex optimizer that enhances the Adam algorithm by utilizing strong convexity of functions wherever possible. Although the motivation behind making these modifications are to improve performance in only convex cases, they prove to be effective even in non-convex cases.</p>
+<p>SAdam <a class="citation" href="#wang2019sadam">(Wang et al., 2019)</a> is an online convex optimizer that enhances the Adam algorithm by utilizing strong convexity of functions wherever possible. Although the motivation behind making these modifications are to improve performance in only convex cases, they prove to be effective even in non-convex cases. I undertook this project along with <a href="https://github.com/naruarjun">Narayanan ER</a> as part of the ML Reproducibility Challenge 2020. Any variation with respect to Adam with a solid mathematical backing deserves a serious look and hence SAdam got our attention, and we decided to reproduce the results shown in the paper.</p>
 
-<p>Explain what convexity means</p>
+<p>A mathematical function is called convex if a 2nd order of differentiation is possible, and if the second derivative is never negative. Owing to this, one of the properties of convex functions is that they have a global minimum. This has led to the adoptiion convex loss functions, although for training deep neural networks working with non-convex loss functions become imperative.</p>
 
-<p>SAdam follows the general framework of Adam, deploying a faster decaying rate step size controlled by time-variant hyperparameters to exploit strong convexity. Although it must be mentioned that similar ideas have successfully been applied in the past to the frameworks of Adagrad and RMSProp to get the variants called SC-Adagrad and SC-RMSProp <a class="citation" href="#"></a>. Theoretical analysis of SAdam (available in { % cite % }) show a data-dependent <code class="language-plaintext highlighter-rouge">O(logT)</code> regret bound for strongly convex functions, which means that it converges faster than AMSgrad and AdamNC in such cases.</p>
+<p>SAdam follows the general framework of Adam, deploying a faster decaying rate step size controlled by time-variant hyperparameters to exploit strong convexity. Although it must be mentioned that similar ideas have successfully been applied in the past to the frameworks of Adagrad and RMSProp to get the variants called SC-Adagrad and SC-RMSProp <a class="citation" href="#mukkamala2017variants">(Mukkamala &amp; Hein, 2017)</a>. Theoretical analysis of SAdam show a data-dependent <code class="language-plaintext highlighter-rouge">O(logT)</code> regret bound for strongly convex functions, which means that it converges faster than AMSgrad and AdamNC in such cases.</p>
 
 <p>We performed all the experiments mentioned in the original paper by the authors to verify their claims. We added a few experiments of our own to verify whether only the best results on some of the datasets were cherry picked in the original paper. Therefore we ended up performing the following tasks:</p>
 
@@ -134,9 +134,79 @@ training as well, which is inherently a non-convex optimization problem.</p>
 
 <p>It must also be noted that, the authors had implemented the optimizer in <strong>Tensorflow</strong> and in order to make the optimizer more accessible, we rewrote everything in <strong>PyTorch</strong>. Not just SAdam, in order to compare all the optimizers mentioned in the paper, we implemented SC_RMSProp and SC_Adagrad in Pytorch as well. All the correpsonding code can be found in this <a href="https://github.com/naruarjun/SADAM-reproducibility">repository</a>. The steps to install and run the optimizers are given in detail there. In addition, the details of all of the experiments that were carried out, including the optimal hyperparameters for each are provided in the <a href="https://openreview.net/forum?id=eNj0zqNUkBU">reproducibility report</a> published on the OpenReview Portal.</p>
 
-<h3 id="explanation-of-the-code-for-implementation-of-sadam-optimizer">Explanation of the code for implementation of SAdam Optimizer</h3>
+<h3 id="implementation-of-the-sadam-optimizer">Implementation of the SAdam optimizer</h3>
 
-<p>Explain the code for implementation of SAdam.</p>
+<p>To implement custom optimizers in Pytorch, the functions of the default <code class="language-plaintext highlighter-rouge">torch.optim.Optimizer</code> viz. <code class="language-plaintext highlighter-rouge">__init__</code> and <code class="language-plaintext highlighter-rouge">step()</code> need to be overriden.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">__init__</code>: This function serves as the point where all the parameters for the optimizers are initialized. Thus the mandatory <code class="language-plaintext highlighter-rouge">params</code> parameter needs to initialized with a dictionary of hyperparameters necessary for optimization. It should be noted however <code class="language-plaintext highlighter-rouge">weight_decay</code> is not a part of the optimizer, but is a way of adding <code class="language-plaintext highlighter-rouge">L2</code> Regularization loss in Pytorch.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+def __init__(self, params, beta_1=0.9, lr=0.01, delta=1e-2, xi_1=0.1,
+             xi_2=0.1, gamma=0.9, weight_decay=1e-2):
+
+    # Making the dictionary with all of the hyperparameters
+    defaults = dict(lr=lr, beta_1=beta_1, delta=delta, xi_1=xi_1,
+                    xi_2=xi_2, gamma=gamma, weight_decay=weight_decay)
+    super(SAdam, self).__init__(params, defaults)
+
+</code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">step</code> : A sample optimization step is mentioned in this function. <code class="language-plaintext highlighter-rouge">closure</code> is required for a few loss functions, where closure is utilized to terminate the loss function updates by the optimizer (not required for SAdam). The code given below performs 1 step on all of the parameters, and is almost a replica of the Adam optimizer, except that β<em>2</em> is time variant in SAdam, and instead of dividing by the square root for the second moment vector (denoted by <code class="language-plaintext highlighter-rouge">v_t</code> in the code given below), we use it as is. Intuitively, the larger decay caused due to this results in faster convergence, while the time variant hyperparameters make sure the convergence is not unstable.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def step(self, closure=None):
+    loss = None
+    if closure is not None:
+        loss = closure()
+
+    for group in self.param_groups:
+        for p in group['params']:
+            if p.grad is None:
+                continue
+
+            grad = p.grad
+            state = self.state[p]
+
+            # Initialize the derivatives if they haven't been updated yet
+            if len(state) == 0:
+                state['step'] = 0
+                # Exponential moving average of gradient values
+                state['hat_g_t'] = torch.zeros_like(
+                    p, memory_format=torch.preserve_format)
+                # Exponential moving average of squared gradient values
+                state['v_t'] = torch.zeros_like(
+                    p, memory_format=torch.preserve_format)
+
+            # Extract all the hyperparameters for the optimizer
+            lr, delta = group['lr'], group['delta']
+            xi_1, xi_2 = group['xi_1'], group['xi_2']
+            hat_g_t, v_t = state['hat_g_t'], state['v_t']
+            gamma, beta_1 = group['gamma'], group['beta_1']
+
+            # Update the step taken
+            state['step'] += 1
+
+            # L2 Regularization performed, if weight decay is initialized
+            if group['weight_decay'] != 0:
+                grad = grad.add(p, alpha=group['weight_decay'])
+
+            time_step = state['step']
+            beta_2 = 1 - gamma/time_step
+
+            hat_g_t.mul_(beta_1).add_(grad, alpha=1 - beta_1)
+            v_t.mul_(beta_2).addcmul_(grad, grad, value=1-beta_2)
+            denom = time_step*v_t + delta
+            p.addcmul_(hat_g_t, 1/denom, value=-lr)
+
+return loss
+</code></pre></div></div>
+
+<h3 id="references">References</h3>
+<ol class="bibliography"><li><span id="wang2019sadam">Wang, G., Lu, S., Tu, W., &amp; Zhang, L. (2019). Sadam: A variant of adam for strongly convex functions. In <i>arXiv preprint arXiv:1905.02957</i>.</span></li>
+<li><span id="mukkamala2017variants">Mukkamala, M. C., &amp; Hein, M. (2017). Variants of rmsprop and adagrad with logarithmic regret bounds. In <i>International Conference on Machine Learning</i> (pp. 2545–2553). PMLR.</span></li></ol>
 
 
 <span class="post-date">
