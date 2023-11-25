@@ -33,3 +33,5 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-scholar'
 
 
+
+gem "webrick", "~> 1.8"

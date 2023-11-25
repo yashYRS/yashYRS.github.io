@@ -2,12 +2,12 @@ name: Yash Sarrof
 email: yashsarrof@outlook.com
 website_name: yashsarrof.com
 website_url: https://yashsarrof.com
-location: Kolkata, India
-last-updated: 4th October 2021 # commit date
+location: Saarbrücken, Germany
+last-updated: 25th November 2023 # commit date
 
 sections:
-  - experience
   - education
+  - experience
   - achievements
   - projects
   - skills
@@ -16,9 +16,15 @@ data:
   education:
     title: Education
     items:
+      - Universität des Saarlandes:
+          date: 2023 - current
+          subtitle: M.Sc. in Language Science and Technology 
+          content: |
+            - HiWi (Student Researcher) at LaCoCo, headed by Michael Hahn
+            - Computational Linguistics, NLP for Pyscholinguistic Research, Language Evolution
       - Manipal Institute of Technology:
           date: 2016 - 2020
-          subtitle: B. Tech Computer Science and Engineering
+          subtitle: B.Tech Computer Science and Engineering
           content: |
               - Minor in Intelligent Systems
               - CGPA: 9.09/10
@@ -41,7 +47,7 @@ data:
     title: Relevant Work Experience
     items:
       - ML Engineer:
-          date: December 2020 - Present
+          date: December 2020 - August 2023
           subtitle: |
               [Glib.ai](https://glib.ai/)
           content: |
@@ -81,9 +87,9 @@ data:
         remote transactions on the database were also developed.
 
   skills:
-    title: Skills
+    title: Technical Skills
     text: |
-        - **Languages**: Python, C, C++, Java
-        - **Deep Learning**: PyTorch, TensorFlow
-        - **Web Frameworks**: Django, Flask, Angular
-        - **Miscellaneous**: OpenCV, Docker, Git, Vim, LateX, Android
+        - **Languages**: Python, C, C++
+        - **Web Frameworks**: Django, Flask
+        - **Deep Learning Frameworks**: PyTorch, TensorFlow
+        
