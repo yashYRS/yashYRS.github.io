@@ -1,19 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-01T02:13:18+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">&amp;gt;_  cd /home/</title><subtitle> </subtitle><author><name>Yash Sarrof</name></author><entry><title type="html">About</title><link href="http://localhost:4000/about/about.html" rel="alternate" type="text/html" title="About" /><published>2021-10-03T00:00:00+05:30</published><updated>2021-10-03T00:00:00+05:30</updated><id>http://localhost:4000/about/about</id><content type="html" xml:base="http://localhost:4000/about/about.html">&lt;p&gt;I am a graduate from Manipal Institute of Technology with a major in Computer Science. I work in the R&amp;amp;D team at Glib, where we develop document processing softwares that convert business documents into analyzable information within seconds enabling real-time decision making for our clients.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-11-25T23:18:46+01:00</updated><id>/feed.xml</id><title type="html">&amp;gt;_  cd /home/</title><subtitle> </subtitle><author><name>Yash Sarrof</name></author><entry><title type="html">About</title><link href="/about/about.html" rel="alternate" type="text/html" title="About" /><published>2023-11-15T00:00:00+01:00</published><updated>2023-11-15T00:00:00+01:00</updated><id>/about/about</id><content type="html" xml:base="/about/about.html">&lt;p&gt;I am pursuing my M.Sc. in Language Science and Technology at Universität des Saarlandes. I also work at &lt;a href=&quot;https://lacoco-lab.github.io/home/&quot;&gt;LaCoCo&lt;/a&gt;, headed by Dr. Michael Hahn, as a Research Assistant.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-Prior to this, I was an intern at Samsung R&amp;amp;D Bangalore, where I worked in the On-Device AI division on projects that aimed at improving user’s interaction with screenshots. My role dabbled from training models for script identification, to data augmentation for text localization in screenshots.&lt;/p&gt;
+&lt;p&gt;My interests lie in enhancing the interpretability, reliability, and correctness of language models. I believe that incorporating linguistic knowledge into these models and controlling domains can effectively reduce training scale and model parameter size without compromising performance.&lt;/p&gt;
 
-&lt;p&gt;Although I am fascinated with deep learning models and try to keep myself updated with the latest developments on it, my primary interest lies in research that approaches NLP problems from a linguistic standpoint. I wish to pursue my masters and hopefully a PhD as well in future, and contribute to the research community in a meaningful way.&lt;/p&gt;
+&lt;p&gt;I am also fascinated by the evolution and acquisition of language in humans and actively follow research advancements in this field.&lt;/p&gt;
 
-&lt;p&gt;I strive to keep the posts non-redundant, although in the process end up writing sparingly. The structure of the blog is as follows&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Projects:&lt;/strong&gt; Posts explaining some of my projects&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Thoughts:&lt;/strong&gt; Some random thoughts and a few personal stories&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Technical:&lt;/strong&gt; Posts from the world of Computer Science, that I hope would be useful to the people reading&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Looking forward to suggestions, criticisms and possible collaborations.&lt;/p&gt;</content><author><name>Yash Sarrof</name></author><category term="About" /><summary type="html">I am a graduate from Manipal Institute of Technology with a major in Computer Science. I work in the R&amp;amp;D team at Glib, where we develop document processing softwares that convert business documents into analyzable information within seconds enabling real-time decision making for our clients.</summary></entry><entry><title type="html">Instead of demanding a seat, build your table or better yet extract some tables</title><link href="http://localhost:4000/technical/TableContentExtraction.html" rel="alternate" type="text/html" title="Instead of demanding a seat, build your table or better yet extract some tables" /><published>2021-09-01T00:00:00+05:30</published><updated>2021-09-01T00:00:00+05:30</updated><id>http://localhost:4000/technical/TableContentExtraction</id><content type="html" xml:base="http://localhost:4000/technical/TableContentExtraction.html">&lt;p&gt;Table extraction fall under the umbrella of Document Intelligence, a relatively new research topic that deals with analzying and understanding business documents. The documents vary in style, layouts, fonts and generally have a complex template. Since digitisation of documents is a recent phenonmenon, majority of such documents are scanned copies of their printed counterparts. The poor quality of images, skew arising due to scans made in haste compound the difficulty of the problem. Especially in the financial domain, where the significance of every number and alphabet is paramount. Manual supervision along with some software aid is the current norm, however each day, efforts are made to reduce the amount of interventions required by humans. Extracting tables from these documents is one such sub domain, which has attracted a lot of researchers. Tables do not have a specified way of being constructed, and often the artistic proclivities involved in making tables look more presentable, add a layer to the difficulty of the problem. Most of the information in tables would make sense, if the relationships and contexts are known prior, as tables generally contain limited data. I will attempt to give an intuition behind some of the work being carried out in this area, and hopefully spark enough interest in anyone reading this, to delve deeper in the field.&lt;/p&gt;
+&lt;p&gt;Prior to joining my Masters, and after completing my undergraduate degree in Computer Science from Manipal Institute of Technology in 2020, I worked as a Machine Learning Engineer for three years in the R&amp;amp;D team at Glib.ai. Additionally, I have held internships in the On-Device AI division at Samsung R&amp;amp;D Bangalore and at Novartis, Hyderabad India.&lt;/p&gt;</content><author><name>Yash Sarrof</name></author><category term="About" /><summary type="html">I am pursuing my M.Sc. in Language Science and Technology at Universität des Saarlandes. I also work at LaCoCo, headed by Dr. Michael Hahn, as a Research Assistant.</summary></entry><entry><title type="html">Instead of demanding a seat, build your table or better yet extract some tables</title><link href="/technical/TableContentExtraction.html" rel="alternate" type="text/html" title="Instead of demanding a seat, build your table or better yet extract some tables" /><published>2021-09-01T00:00:00+02:00</published><updated>2021-09-01T00:00:00+02:00</updated><id>/technical/TableContentExtraction</id><content type="html" xml:base="/technical/TableContentExtraction.html">&lt;p&gt;Table extraction fall under the umbrella of Document Intelligence, a relatively new research topic that deals with analzying and understanding business documents. The documents vary in style, layouts, fonts and generally have a complex template. Since digitisation of documents is a recent phenonmenon, majority of such documents are scanned copies of their printed counterparts. The poor quality of images, skew arising due to scans made in haste compound the difficulty of the problem. Especially in the financial domain, where the significance of every number and alphabet is paramount. Manual supervision along with some software aid is the current norm, however each day, efforts are made to reduce the amount of interventions required by humans. Extracting tables from these documents is one such sub domain, which has attracted a lot of researchers. Tables do not have a specified way of being constructed, and often the artistic proclivities involved in making tables look more presentable, add a layer to the difficulty of the problem. Most of the information in tables would make sense, if the relationships and contexts are known prior, as tables generally contain limited data. I will attempt to give an intuition behind some of the work being carried out in this area, and hopefully spark enough interest in anyone reading this, to delve deeper in the field.&lt;/p&gt;
 
 &lt;figure class=&quot;image&quot;&gt;
   &lt;center&gt;
@@ -322,7 +313,7 @@ The hyperparameters used to specify each of the thresholds in these constraint c
 &lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;xu2020layoutlm&quot;&gt;Xu, Y., Li, M., Cui, L., Huang, S., Wei, F., &amp;amp; Zhou, M. (2020). Layoutlm: Pre-training of text and layout for document image understanding. In &lt;i&gt;Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery &amp;amp; Data Mining&lt;/i&gt; (pp. 1192–1200).&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;xu2020layoutlmv2&quot;&gt;Xu, Y., Xu, Y., Lv, T., Cui, L., Wei, F., Wang, G., Lu, Y., Florencio, D., Zhang, C., Che, W., &amp;amp; others. (2020). LayoutLMv2: Multi-modal pre-training for visually-rich document understanding. In &lt;i&gt;arXiv preprint arXiv:2012.14740&lt;/i&gt;.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;zheng2021global&quot;&gt;Zheng, X., Burdick, D., Popa, L., Zhong, X., &amp;amp; Wang, N. X. R. (2021). Global table extractor (gte): A framework for joint table identification and cell structure recognition using visual context. In &lt;i&gt;Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision&lt;/i&gt; (pp. 697–706).&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Yash Sarrof</name></author><category term="Technical" /><summary type="html">Table extraction fall under the umbrella of Document Intelligence, a relatively new research topic that deals with analzying and understanding business documents. The documents vary in style, layouts, fonts and generally have a complex template. Since digitisation of documents is a recent phenonmenon, majority of such documents are scanned copies of their printed counterparts. The poor quality of images, skew arising due to scans made in haste compound the difficulty of the problem. Especially in the financial domain, where the significance of every number and alphabet is paramount. Manual supervision along with some software aid is the current norm, however each day, efforts are made to reduce the amount of interventions required by humans. Extracting tables from these documents is one such sub domain, which has attracted a lot of researchers. Tables do not have a specified way of being constructed, and often the artistic proclivities involved in making tables look more presentable, add a layer to the difficulty of the problem. Most of the information in tables would make sense, if the relationships and contexts are known prior, as tables generally contain limited data. I will attempt to give an intuition behind some of the work being carried out in this area, and hopefully spark enough interest in anyone reading this, to delve deeper in the field.</summary></entry><entry><title type="html">SAdam: An Adam variant that converges faster for convex loss functions</title><link href="http://localhost:4000/projects/SadamOptimizer.html" rel="alternate" type="text/html" title="SAdam: An Adam variant that converges faster for convex loss functions" /><published>2021-03-29T00:00:00+05:30</published><updated>2021-03-29T00:00:00+05:30</updated><id>http://localhost:4000/projects/SadamOptimizer</id><content type="html" xml:base="http://localhost:4000/projects/SadamOptimizer.html">&lt;p&gt;SAdam &lt;a class=&quot;citation&quot; href=&quot;#wang2019sadam&quot;&gt;(Wang et al., 2019)&lt;/a&gt; is an online convex optimizer that enhances the Adam algorithm by utilizing strong convexity of functions wherever possible. Although the motivation behind making these modifications are to improve performance in only convex cases, they prove to be effective even in non-convex cases. I undertook this project along with &lt;a href=&quot;https://github.com/naruarjun&quot;&gt;Narayanan ER&lt;/a&gt; as part of the ML Reproducibility Challenge 2020. Any variation with respect to Adam with a solid mathematical backing deserves a serious look and hence SAdam got our attention, and we decided to reproduce the results shown in the paper.&lt;/p&gt;
+&lt;li&gt;&lt;span id=&quot;zheng2021global&quot;&gt;Zheng, X., Burdick, D., Popa, L., Zhong, X., &amp;amp; Wang, N. X. R. (2021). Global table extractor (gte): A framework for joint table identification and cell structure recognition using visual context. In &lt;i&gt;Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision&lt;/i&gt; (pp. 697–706).&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Yash Sarrof</name></author><category term="Technical" /><summary type="html">Table extraction fall under the umbrella of Document Intelligence, a relatively new research topic that deals with analzying and understanding business documents. The documents vary in style, layouts, fonts and generally have a complex template. Since digitisation of documents is a recent phenonmenon, majority of such documents are scanned copies of their printed counterparts. The poor quality of images, skew arising due to scans made in haste compound the difficulty of the problem. Especially in the financial domain, where the significance of every number and alphabet is paramount. Manual supervision along with some software aid is the current norm, however each day, efforts are made to reduce the amount of interventions required by humans. Extracting tables from these documents is one such sub domain, which has attracted a lot of researchers. Tables do not have a specified way of being constructed, and often the artistic proclivities involved in making tables look more presentable, add a layer to the difficulty of the problem. Most of the information in tables would make sense, if the relationships and contexts are known prior, as tables generally contain limited data. I will attempt to give an intuition behind some of the work being carried out in this area, and hopefully spark enough interest in anyone reading this, to delve deeper in the field.</summary></entry><entry><title type="html">SAdam: An Adam variant that converges faster for convex loss functions</title><link href="/projects/SadamOptimizer.html" rel="alternate" type="text/html" title="SAdam: An Adam variant that converges faster for convex loss functions" /><published>2021-03-29T00:00:00+02:00</published><updated>2021-03-29T00:00:00+02:00</updated><id>/projects/SadamOptimizer</id><content type="html" xml:base="/projects/SadamOptimizer.html">&lt;p&gt;SAdam &lt;a class=&quot;citation&quot; href=&quot;#wang2019sadam&quot;&gt;(Wang et al., 2019)&lt;/a&gt; is an online convex optimizer that enhances the Adam algorithm by utilizing strong convexity of functions wherever possible. Although the motivation behind making these modifications are to improve performance in only convex cases, they prove to be effective even in non-convex cases. I undertook this project along with &lt;a href=&quot;https://github.com/naruarjun&quot;&gt;Narayanan ER&lt;/a&gt; as part of the ML Reproducibility Challenge 2020. Any variation with respect to Adam with a solid mathematical backing deserves a serious look and hence SAdam got our attention, and we decided to reproduce the results shown in the paper.&lt;/p&gt;
 
 &lt;p&gt;A mathematical function is called convex if a 2nd order of differentiation is possible, and if the second derivative is never negative. Owing to this, one of the properties of convex functions is that they have a global minimum. This has led to the adoptiion convex loss functions, although for training deep neural networks working with non-convex loss functions become imperative.&lt;/p&gt;
 
@@ -374,37 +365,37 @@ def __init__(self, params, beta_1=0.9, lr=0.01, delta=1e-2, xi_1=0.1,
         loss = closure()
 
     for group in self.param_groups:
-        for p in group['params']:
+        for p in group[&apos;params&apos;]:
             if p.grad is None:
                 continue
 
             grad = p.grad
             state = self.state[p]
 
-            # Initialize the derivatives if they haven't been updated yet
+            # Initialize the derivatives if they haven&apos;t been updated yet
             if len(state) == 0:
-                state['step'] = 0
+                state[&apos;step&apos;] = 0
                 # Exponential moving average of gradient values
-                state['hat_g_t'] = torch.zeros_like(
+                state[&apos;hat_g_t&apos;] = torch.zeros_like(
                     p, memory_format=torch.preserve_format)
                 # Exponential moving average of squared gradient values
-                state['v_t'] = torch.zeros_like(
+                state[&apos;v_t&apos;] = torch.zeros_like(
                     p, memory_format=torch.preserve_format)
 
             # Extract all the hyperparameters for the optimizer
-            lr, delta = group['lr'], group['delta']
-            xi_1, xi_2 = group['xi_1'], group['xi_2']
-            hat_g_t, v_t = state['hat_g_t'], state['v_t']
-            gamma, beta_1 = group['gamma'], group['beta_1']
+            lr, delta = group[&apos;lr&apos;], group[&apos;delta&apos;]
+            xi_1, xi_2 = group[&apos;xi_1&apos;], group[&apos;xi_2&apos;]
+            hat_g_t, v_t = state[&apos;hat_g_t&apos;], state[&apos;v_t&apos;]
+            gamma, beta_1 = group[&apos;gamma&apos;], group[&apos;beta_1&apos;]
 
             # Update the step taken
-            state['step'] += 1
+            state[&apos;step&apos;] += 1
 
             # L2 Regularization performed, if weight decay is initialized
-            if group['weight_decay'] != 0:
-                grad = grad.add(p, alpha=group['weight_decay'])
+            if group[&apos;weight_decay&apos;] != 0:
+                grad = grad.add(p, alpha=group[&apos;weight_decay&apos;])
 
-            time_step = state['step']
+            time_step = state[&apos;step&apos;]
             beta_2 = 1 - gamma/time_step
 
             hat_g_t.mul_(beta_1).add_(grad, alpha=1 - beta_1)
@@ -417,7 +408,7 @@ return loss
 
 &lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;wang2019sadam&quot;&gt;Wang, G., Lu, S., Tu, W., &amp;amp; Zhang, L. (2019). Sadam: A variant of adam for strongly convex functions. In &lt;i&gt;arXiv preprint arXiv:1905.02957&lt;/i&gt;.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;mukkamala2017variants&quot;&gt;Mukkamala, M. C., &amp;amp; Hein, M. (2017). Variants of rmsprop and adagrad with logarithmic regret bounds. In &lt;i&gt;International Conference on Machine Learning&lt;/i&gt; (pp. 2545–2553). PMLR.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Yash Sarrof</name></author><category term="Projects" /><summary type="html">SAdam (Wang et al., 2019) is an online convex optimizer that enhances the Adam algorithm by utilizing strong convexity of functions wherever possible. Although the motivation behind making these modifications are to improve performance in only convex cases, they prove to be effective even in non-convex cases. I undertook this project along with Narayanan ER as part of the ML Reproducibility Challenge 2020. Any variation with respect to Adam with a solid mathematical backing deserves a serious look and hence SAdam got our attention, and we decided to reproduce the results shown in the paper.</summary></entry><entry><title type="html">Agony, expectation, relief &amp;amp; the journey in between</title><link href="http://localhost:4000/thoughts/Hopeless.html" rel="alternate" type="text/html" title="Agony, expectation, relief &amp;amp; the journey in between" /><published>2020-12-18T00:00:00+05:30</published><updated>2020-12-18T00:00:00+05:30</updated><id>http://localhost:4000/thoughts/Hopeless</id><content type="html" xml:base="http://localhost:4000/thoughts/Hopeless.html">&lt;p&gt;Somewhere in the middle of February 2020, I was moving into my first rented house. The place was perfect, it was isolated enough from the main roads to be quite and sombre at night, whilst also being a 10 minute walk from the Samsung R&amp;amp;D Bangalore Campus where I was interning. The internship stipend was healthy, and so life in the city was pretty exciting. Weekend get togethers, making my own food, collaborating on expensive side projects that previously wouldn’t even have crossed my mind, life had almost never been better. I had already applied for my Masters to the college of my choice KU Leuven in Belgium. However, I was banking on my internship being converted to a placement offer by Samsung, since I really liked the work and the environment around me. Working for a couple of years at this company to build up my capital and then applying again would have been the ideal scenario. By then, the first news of COVID appearing in India had already started coming in. As always, first warnings are rarely paid heed to by people at large, and I was no different. Eventually reality did kick in, and by the time complete lockdown was announced, there was panic amongst all the people I knew in Bangalore. Most of them started booking their flights to go back to their home towns in order to not be stuck. Me and a couple of other friends that I had made at Samsung, decided to stay back in Bangalore during the lockdown, hoping for things to improve quickly and avoiding the risk of travelling. I had not anticipated for the lockdown to keep increasing from the initial proposal of 21 days. There was a partial relaxation after around 45 days though, and our office campus was opened to 10% of the employees. I requested to be allowed in the campus, since availing the services of the office pantry would have significantly helped me avoid preparing all 3 meals at home everyday without a regular supply of essentials. My division head agreed, since most of the full time employees were reluctant to come to the office, as they lived with their families and did not want to take any risks.&lt;/p&gt;
+&lt;li&gt;&lt;span id=&quot;mukkamala2017variants&quot;&gt;Mukkamala, M. C., &amp;amp; Hein, M. (2017). Variants of rmsprop and adagrad with logarithmic regret bounds. In &lt;i&gt;International Conference on Machine Learning&lt;/i&gt; (pp. 2545–2553). PMLR.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Yash Sarrof</name></author><category term="Projects" /><summary type="html">SAdam (Wang et al., 2019) is an online convex optimizer that enhances the Adam algorithm by utilizing strong convexity of functions wherever possible. Although the motivation behind making these modifications are to improve performance in only convex cases, they prove to be effective even in non-convex cases. I undertook this project along with Narayanan ER as part of the ML Reproducibility Challenge 2020. Any variation with respect to Adam with a solid mathematical backing deserves a serious look and hence SAdam got our attention, and we decided to reproduce the results shown in the paper.</summary></entry><entry><title type="html">Agony, expectation, relief &amp;amp; the journey in between</title><link href="/thoughts/Hopeless.html" rel="alternate" type="text/html" title="Agony, expectation, relief &amp;amp; the journey in between" /><published>2020-12-18T00:00:00+01:00</published><updated>2020-12-18T00:00:00+01:00</updated><id>/thoughts/Hopeless</id><content type="html" xml:base="/thoughts/Hopeless.html">&lt;p&gt;Somewhere in the middle of February 2020, I was moving into my first rented house. The place was perfect, it was isolated enough from the main roads to be quite and sombre at night, whilst also being a 10 minute walk from the Samsung R&amp;amp;D Bangalore Campus where I was interning. The internship stipend was healthy, and so life in the city was pretty exciting. Weekend get togethers, making my own food, collaborating on expensive side projects that previously wouldn’t even have crossed my mind, life had almost never been better. I had already applied for my Masters to the college of my choice KU Leuven in Belgium. However, I was banking on my internship being converted to a placement offer by Samsung, since I really liked the work and the environment around me. Working for a couple of years at this company to build up my capital and then applying again would have been the ideal scenario. By then, the first news of COVID appearing in India had already started coming in. As always, first warnings are rarely paid heed to by people at large, and I was no different. Eventually reality did kick in, and by the time complete lockdown was announced, there was panic amongst all the people I knew in Bangalore. Most of them started booking their flights to go back to their home towns in order to not be stuck. Me and a couple of other friends that I had made at Samsung, decided to stay back in Bangalore during the lockdown, hoping for things to improve quickly and avoiding the risk of travelling. I had not anticipated for the lockdown to keep increasing from the initial proposal of 21 days. There was a partial relaxation after around 45 days though, and our office campus was opened to 10% of the employees. I requested to be allowed in the campus, since availing the services of the office pantry would have significantly helped me avoid preparing all 3 meals at home everyday without a regular supply of essentials. My division head agreed, since most of the full time employees were reluctant to come to the office, as they lived with their families and did not want to take any risks.&lt;/p&gt;
 
 &lt;p&gt;Around this time I found out that I had gotten a admit in KU Leuven and was relieved to have secured a safe backup, in case my internship did not convert. The process of getting the placement offer hinged on a positive appraisal by team managers (which I had already received) and me passing the “Advanced Test” of Samsung. The caveat was that, Samsung conducts these tests on their premises or on college campuses only when there are sufficient enough people to give the test. The test was originally supposed to happen in the last week of March, but owing to lockdown and the flurry of people that had gone back to their home towns, the test kept getting postponed. My team manager in the last week of my internship in June 2020, told me that he had tried his best to find a loophole of sorts to get me to stay a little longer to be able to take the test as soon as it was feasible, but his efforts hadn’t borne any fruit. The last communication from the HR ended on a positive note, when they said that they were looking at the possibility of holding the test online. They had also given indications albeit unofficially, that the advanced exam would probably be held in the month of September. I was sent links to 2 consecutive practice tests that they were using to gauge the feasibility of actually relying on the online exam completely. My backup of going for Masters right away was also falling apart as there were no signs of the Belgium Consulate opening for visa appointments anytime soon in any part of the country. Staying in Bengaluru whilst job hunting and incurring the expenses for rent without a stable income made little sense. Therefore in the last week of June 2020, I came back to my hometown of Kolkata.&lt;/p&gt;
 
@@ -445,7 +436,7 @@ return loss
 
 &lt;p&gt;On 15th December I went back to the Doctor, for him to inspect my recovery post the frenectomy. I was told, that I should be able to start speaking within a day or two. I had stopped applying to new places, ever since the surgery, and I completed my first application since then on the 16th Night. On the morning of 17th December, I finally felt my voice again and was being able to speak clearly albeit in a low voice. I went through the usual drills, looking for callbacks, or emails regarding the applications that I had made. It had been 7 weeks since the BEL job offer, and there was still no word from them. Having found nothing, I had started looking for more opportunities, when I saw a call from an unknown number. I picked it up, and was surprised to know that one of the CEOs of the startup that I had applied to last night had called me. He said, that he had looked at my profile and wanted to proceed for an informal interview right away. I didn’t mind, and after about 30 minutes of an impromptu interview, he said that he wanted to take a final technical interview, and if possible wanted to get it done right away. He sent me a link to a video conference, where there were 3 other panelists. The interview spanned more than 2 hours, and at the end, Mohit who had taken my first interview said that he would get back to me, by the end of the day. Having experienced multiple hollow claims in the past couple of months I had started to disregard such assertions unless given to me in writing. But true to his word, Mohit did call me within 3 hours, and made me a job offer. After negotiating on the terms for a while, I accepted. I was to start the job on literally the next day, which incidentally happened to be my birthday as well.&lt;/p&gt;
 
-&lt;p&gt;I have long been a repudiator of the theories involving happenchance. However, the complete turnaround from having no hope of securing a job in the near future and an inability to speak intelligibly, that just somehow happened to coincide with my birthday, to this day makes me reconsider my views on fate.&lt;/p&gt;</content><author><name>Yash Sarrof</name></author><category term="Thoughts" /><summary type="html">Somewhere in the middle of February 2020, I was moving into my first rented house. The place was perfect, it was isolated enough from the main roads to be quite and sombre at night, whilst also being a 10 minute walk from the Samsung R&amp;amp;D Bangalore Campus where I was interning. The internship stipend was healthy, and so life in the city was pretty exciting. Weekend get togethers, making my own food, collaborating on expensive side projects that previously wouldn’t even have crossed my mind, life had almost never been better. I had already applied for my Masters to the college of my choice KU Leuven in Belgium. However, I was banking on my internship being converted to a placement offer by Samsung, since I really liked the work and the environment around me. Working for a couple of years at this company to build up my capital and then applying again would have been the ideal scenario. By then, the first news of COVID appearing in India had already started coming in. As always, first warnings are rarely paid heed to by people at large, and I was no different. Eventually reality did kick in, and by the time complete lockdown was announced, there was panic amongst all the people I knew in Bangalore. Most of them started booking their flights to go back to their home towns in order to not be stuck. Me and a couple of other friends that I had made at Samsung, decided to stay back in Bangalore during the lockdown, hoping for things to improve quickly and avoiding the risk of travelling. I had not anticipated for the lockdown to keep increasing from the initial proposal of 21 days. There was a partial relaxation after around 45 days though, and our office campus was opened to 10% of the employees. I requested to be allowed in the campus, since availing the services of the office pantry would have significantly helped me avoid preparing all 3 meals at home everyday without a regular supply of essentials. My division head agreed, since most of the full time employees were reluctant to come to the office, as they lived with their families and did not want to take any risks.</summary></entry><entry><title type="html">It’s not what they are underneath but what they do, that increases producitivity</title><link href="http://localhost:4000/technical/LinuxTools.html" rel="alternate" type="text/html" title="It’s not what they are underneath but what they do, that increases producitivity" /><published>2020-10-10T00:00:00+05:30</published><updated>2020-10-10T00:00:00+05:30</updated><id>http://localhost:4000/technical/LinuxTools</id><content type="html" xml:base="http://localhost:4000/technical/LinuxTools.html">&lt;p&gt;As a Computer Science engineer every miniscule jump in productivity in and around the workspace tends to have a butterfly effect, and ends up being a huge time savior. Over the years, I have disovered a few open source programs that have had a similar effect for me, and despite a oblique learning curve for most of them, they have become indispensible aspects of my working environment. It should be noted that most of these tools are specific to Linux, and anyone using other some other Operating System might not find much value from this post. Another common thread amongst everything listed here is that they are all open source, and have an active community. The configuration files for my system can be found &lt;a href=&quot;!https://github.com/yashYRS/dotfiles&quot;&gt;here&lt;/a&gt;, although I would urge everyone to rice their own systems, since the configurability of each and every tool is what makes Linux so beautiful to work with.&lt;/p&gt;
+&lt;p&gt;I have long been a repudiator of the theories involving happenchance. However, the complete turnaround from having no hope of securing a job in the near future and an inability to speak intelligibly, that just somehow happened to coincide with my birthday, to this day makes me reconsider my views on fate.&lt;/p&gt;</content><author><name>Yash Sarrof</name></author><category term="Thoughts" /><summary type="html">Somewhere in the middle of February 2020, I was moving into my first rented house. The place was perfect, it was isolated enough from the main roads to be quite and sombre at night, whilst also being a 10 minute walk from the Samsung R&amp;amp;D Bangalore Campus where I was interning. The internship stipend was healthy, and so life in the city was pretty exciting. Weekend get togethers, making my own food, collaborating on expensive side projects that previously wouldn’t even have crossed my mind, life had almost never been better. I had already applied for my Masters to the college of my choice KU Leuven in Belgium. However, I was banking on my internship being converted to a placement offer by Samsung, since I really liked the work and the environment around me. Working for a couple of years at this company to build up my capital and then applying again would have been the ideal scenario. By then, the first news of COVID appearing in India had already started coming in. As always, first warnings are rarely paid heed to by people at large, and I was no different. Eventually reality did kick in, and by the time complete lockdown was announced, there was panic amongst all the people I knew in Bangalore. Most of them started booking their flights to go back to their home towns in order to not be stuck. Me and a couple of other friends that I had made at Samsung, decided to stay back in Bangalore during the lockdown, hoping for things to improve quickly and avoiding the risk of travelling. I had not anticipated for the lockdown to keep increasing from the initial proposal of 21 days. There was a partial relaxation after around 45 days though, and our office campus was opened to 10% of the employees. I requested to be allowed in the campus, since availing the services of the office pantry would have significantly helped me avoid preparing all 3 meals at home everyday without a regular supply of essentials. My division head agreed, since most of the full time employees were reluctant to come to the office, as they lived with their families and did not want to take any risks.</summary></entry><entry><title type="html">It’s not what they are underneath but what they do, that increases producitivity</title><link href="/technical/LinuxTools.html" rel="alternate" type="text/html" title="It’s not what they are underneath but what they do, that increases producitivity" /><published>2020-10-10T00:00:00+02:00</published><updated>2020-10-10T00:00:00+02:00</updated><id>/technical/LinuxTools</id><content type="html" xml:base="/technical/LinuxTools.html">&lt;p&gt;As a Computer Science engineer every miniscule jump in productivity in and around the workspace tends to have a butterfly effect, and ends up being a huge time savior. Over the years, I have disovered a few open source programs that have had a similar effect for me, and despite a oblique learning curve for most of them, they have become indispensible aspects of my working environment. It should be noted that most of these tools are specific to Linux, and anyone using other some other Operating System might not find much value from this post. Another common thread amongst everything listed here is that they are all open source, and have an active community. The configuration files for my system can be found &lt;a href=&quot;!https://github.com/yashYRS/dotfiles&quot;&gt;here&lt;/a&gt;, although I would urge everyone to rice their own systems, since the configurability of each and every tool is what makes Linux so beautiful to work with.&lt;/p&gt;
 
 &lt;h3 id=&quot;newsboat&quot;&gt;Newsboat&lt;/h3&gt;
 
@@ -518,7 +509,7 @@ return loss
 
 &lt;h3 id=&quot;an-overextended-epilogue&quot;&gt;An overextended epilogue&lt;/h3&gt;
 
-&lt;p&gt;Almost everything that I have recommended above, becomes valuable only if one can touch type and ideally also is acquainted with vim bindings. I recommend &lt;a href=&quot;https://www.keybr.com&quot;&gt;keybr&lt;/a&gt; for learning to touch type, &lt;a href=&quot;https://www.monkeytype.com&quot;&gt;monkeytype&lt;/a&gt; for testing your typing speeds reliably, and &lt;a href=&quot;!https://www.vimgenius.com&quot;&gt;vimgenius&lt;/a&gt; for pratising your vim bindings. And again, this is more of a preference, but browsers don’t really come better than &lt;a href=&quot;https://brave.com/&quot;&gt;Brave&lt;/a&gt; , which uses a Chromium engine called Blink at its core. The main advantage of using it is the complete control it provides over ads, cross-site cookies and trackers across websites. Besides the privacy benefits, it also has a great rewards program given out in form of their natively developed cyptocurrency called BAT (Basic Attention Token priced at $1.18 at the time of writing the post) and provides a local wallet to store them. And yeah, it also consumes way less resources compared to Chrome.&lt;/p&gt;</content><author><name>Yash Sarrof</name></author><category term="Technical" /><summary type="html">As a Computer Science engineer every miniscule jump in productivity in and around the workspace tends to have a butterfly effect, and ends up being a huge time savior. Over the years, I have disovered a few open source programs that have had a similar effect for me, and despite a oblique learning curve for most of them, they have become indispensible aspects of my working environment. It should be noted that most of these tools are specific to Linux, and anyone using other some other Operating System might not find much value from this post. Another common thread amongst everything listed here is that they are all open source, and have an active community. The configuration files for my system can be found here, although I would urge everyone to rice their own systems, since the configurability of each and every tool is what makes Linux so beautiful to work with.</summary></entry><entry><title type="html">Using Gardner’s Multiple Intelligence Theory to gauge aptitude of children</title><link href="http://localhost:4000/projects/GardnerTheory.html" rel="alternate" type="text/html" title="Using Gardner’s Multiple Intelligence Theory to gauge aptitude of children" /><published>2020-03-10T00:00:00+05:30</published><updated>2020-03-10T00:00:00+05:30</updated><id>http://localhost:4000/projects/GardnerTheory</id><content type="html" xml:base="http://localhost:4000/projects/GardnerTheory.html">&lt;p&gt;Howard Gardner in 1983 came up with a theory to challenge the traditional view on Intelligence. According to him, cognitive abilities of an individual does not solely constitue intelligence. He classified Intelligence into 8 categories viz. Linguistic (Word Smart), Logical/Mathematical (Math Smart), Spatial (Picture Smart), Bodily-Kinesthetic (Body Smart), Musical (Music Smart), Interpersonal (People Smart), Intrapersonal (Self Smart), and Naturalist (Nature Smart). His theory suggested that people could be strong in multiple of these categories and their inclination is more based on their experiences rather than genetics.&lt;/p&gt;
+&lt;p&gt;Almost everything that I have recommended above, becomes valuable only if one can touch type and ideally also is acquainted with vim bindings. I recommend &lt;a href=&quot;https://www.keybr.com&quot;&gt;keybr&lt;/a&gt; for learning to touch type, &lt;a href=&quot;https://www.monkeytype.com&quot;&gt;monkeytype&lt;/a&gt; for testing your typing speeds reliably, and &lt;a href=&quot;!https://www.vimgenius.com&quot;&gt;vimgenius&lt;/a&gt; for pratising your vim bindings. And again, this is more of a preference, but browsers don’t really come better than &lt;a href=&quot;https://brave.com/&quot;&gt;Brave&lt;/a&gt; , which uses a Chromium engine called Blink at its core. The main advantage of using it is the complete control it provides over ads, cross-site cookies and trackers across websites. Besides the privacy benefits, it also has a great rewards program given out in form of their natively developed cyptocurrency called BAT (Basic Attention Token priced at $1.18 at the time of writing the post) and provides a local wallet to store them. And yeah, it also consumes way less resources compared to Chrome.&lt;/p&gt;</content><author><name>Yash Sarrof</name></author><category term="Technical" /><summary type="html">As a Computer Science engineer every miniscule jump in productivity in and around the workspace tends to have a butterfly effect, and ends up being a huge time savior. Over the years, I have disovered a few open source programs that have had a similar effect for me, and despite a oblique learning curve for most of them, they have become indispensible aspects of my working environment. It should be noted that most of these tools are specific to Linux, and anyone using other some other Operating System might not find much value from this post. Another common thread amongst everything listed here is that they are all open source, and have an active community. The configuration files for my system can be found here, although I would urge everyone to rice their own systems, since the configurability of each and every tool is what makes Linux so beautiful to work with.</summary></entry><entry><title type="html">Using Gardner’s Multiple Intelligence Theory to gauge aptitude of children</title><link href="/projects/GardnerTheory.html" rel="alternate" type="text/html" title="Using Gardner’s Multiple Intelligence Theory to gauge aptitude of children" /><published>2020-03-10T00:00:00+01:00</published><updated>2020-03-10T00:00:00+01:00</updated><id>/projects/GardnerTheory</id><content type="html" xml:base="/projects/GardnerTheory.html">&lt;p&gt;Howard Gardner in 1983 came up with a theory to challenge the traditional view on Intelligence. According to him, cognitive abilities of an individual does not solely constitue intelligence. He classified Intelligence into 8 categories viz. Linguistic (Word Smart), Logical/Mathematical (Math Smart), Spatial (Picture Smart), Bodily-Kinesthetic (Body Smart), Musical (Music Smart), Interpersonal (People Smart), Intrapersonal (Self Smart), and Naturalist (Nature Smart). His theory suggested that people could be strong in multiple of these categories and their inclination is more based on their experiences rather than genetics.&lt;/p&gt;
 
 &lt;h3 id=&quot;problem-statement&quot;&gt;Problem Statement&lt;/h3&gt;
 
@@ -812,7 +803,7 @@ Similar to Interpersonal, we use a standard questionnaire for testing this intel
   &lt;li&gt;&lt;a href=&quot;https://github.com/moaadil&quot;&gt;Mohammad Aadil&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/Sush78&quot;&gt;Sushant Kumar&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/yashYRS&quot;&gt;Yash Sarrof&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Yash Sarrof</name></author><category term="Projects" /><summary type="html">Howard Gardner in 1983 came up with a theory to challenge the traditional view on Intelligence. According to him, cognitive abilities of an individual does not solely constitue intelligence. He classified Intelligence into 8 categories viz. Linguistic (Word Smart), Logical/Mathematical (Math Smart), Spatial (Picture Smart), Bodily-Kinesthetic (Body Smart), Musical (Music Smart), Interpersonal (People Smart), Intrapersonal (Self Smart), and Naturalist (Nature Smart). His theory suggested that people could be strong in multiple of these categories and their inclination is more based on their experiences rather than genetics.</summary></entry><entry><title type="html">Some of my favourite mini-side projects</title><link href="http://localhost:4000/projects/AllMiniSideProjects.html" rel="alternate" type="text/html" title="Some of my favourite mini-side projects" /><published>2019-06-18T00:00:00+05:30</published><updated>2019-06-18T00:00:00+05:30</updated><id>http://localhost:4000/projects/AllMiniSideProjects</id><content type="html" xml:base="http://localhost:4000/projects/AllMiniSideProjects.html">&lt;p&gt;Like any other beginner to the field, I have experimented with different technologies, often times collaborating with others to learn more about a particular topic that spurred interest. That over time, has led to me making weird, unsurprisingly unsustainable projects in short bursts. However each of these projects acted as a gateway for me into a new domain, and therefore are memorable for me.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Yash Sarrof</name></author><category term="Projects" /><summary type="html">Howard Gardner in 1983 came up with a theory to challenge the traditional view on Intelligence. According to him, cognitive abilities of an individual does not solely constitue intelligence. He classified Intelligence into 8 categories viz. Linguistic (Word Smart), Logical/Mathematical (Math Smart), Spatial (Picture Smart), Bodily-Kinesthetic (Body Smart), Musical (Music Smart), Interpersonal (People Smart), Intrapersonal (Self Smart), and Naturalist (Nature Smart). His theory suggested that people could be strong in multiple of these categories and their inclination is more based on their experiences rather than genetics.</summary></entry><entry><title type="html">Some of my favourite mini-side projects</title><link href="/projects/AllMiniSideProjects.html" rel="alternate" type="text/html" title="Some of my favourite mini-side projects" /><published>2019-06-18T00:00:00+02:00</published><updated>2019-06-18T00:00:00+02:00</updated><id>/projects/AllMiniSideProjects</id><content type="html" xml:base="/projects/AllMiniSideProjects.html">&lt;p&gt;Like any other beginner to the field, I have experimented with different technologies, often times collaborating with others to learn more about a particular topic that spurred interest. That over time, has led to me making weird, unsurprisingly unsustainable projects in short bursts. However each of these projects acted as a gateway for me into a new domain, and therefore are memorable for me.&lt;/p&gt;
 
 &lt;h3 id=&quot;earthquake-detection-system&quot;&gt;&lt;a href=&quot;!https://github.com/yashYRS/DetectEarthquake&quot;&gt;Earthquake Detection System&lt;/a&gt;&lt;/h3&gt;
 
@@ -967,7 +958,7 @@ else:
 
             if(temp.size != 0):
 
-                # to maintain uniformity with the model's requirements
+                # to maintain uniformity with the model&apos;s requirements
                 cv2.line(img, (x1, y1), (x2, y2), (0, 0, 255), 2)
 
             	# Predict the digit found using a trained digit recognizer model
@@ -1003,7 +994,7 @@ else:
 
 &lt;h3 id=&quot;alpha-beta-pruning-to-make-a-game-engine&quot;&gt;&lt;a href=&quot;!https://github.com/yashYRS/Tic-Tac-Toe&quot;&gt;Alpha Beta Pruning to make a game engine&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;The perception that I had about AI when I was in high school was almost entirely built up by the hype around how no chess grandmaster was capable of beating a chess engine (that and JARVIS in Ironman xD ). It was inevitable that the first thing I started reading about, after learning the fundamentals of programming was how to make a chess engine. Today, I appreciate the intricacies of AI and my understanding of the field has evolved since, but when I read about alpha-beta pruning, the elegance of it all to make engines suitable for games with perfect information, removed some of the mystique behind something I had been utterly fascinated by. The game that I chose to make was Tic-Tac-Toe, since I did not want to spend time, on coding up the graphics of chess, but was just interested in making alpha-beta pruning work. It took me a weekend’s time to make this game, but till date, whenever I am bored, I just fire up the game and start playing. There are a plethora of posts explaining alpha-beta pruning (&lt;a href=&quot;https://iq.opengenus.org/alpha-beta-pruning-minimax-algorithm&quot;&gt;refer&lt;/a&gt;), if anyone starting out wants to explore it.&lt;/p&gt;</content><author><name>Yash Sarrof</name></author><category term="Projects" /><summary type="html">Like any other beginner to the field, I have experimented with different technologies, often times collaborating with others to learn more about a particular topic that spurred interest. That over time, has led to me making weird, unsurprisingly unsustainable projects in short bursts. However each of these projects acted as a gateway for me into a new domain, and therefore are memorable for me.</summary></entry><entry><title type="html">The Smart India Hackathon Experience</title><link href="http://localhost:4000/thoughts/SIHExperience.html" rel="alternate" type="text/html" title="The Smart India Hackathon Experience" /><published>2019-03-11T00:00:00+05:30</published><updated>2019-03-11T00:00:00+05:30</updated><id>http://localhost:4000/thoughts/SIHExperience</id><content type="html" xml:base="http://localhost:4000/thoughts/SIHExperience.html">&lt;p&gt;On some night in January 2019, me and my roommates Aadil &amp;amp; Sushant were discussing how the hectic schedule in our college, and all our other commitments for improving our profiles, virtually meant that we weren’t spending time with each other at all. We all agreed that the only way to actually hang out more was to work on the same project. We started looking out for options, and after carefully weighing in our alternatives, we decided on participating in the Smart India Hackathon. The decision was guided by the kind of projects on offer, and a time frame that would have allowed to us to maintain our other commitments, manage classes and assignments and still give about 20 hours per week to this project. A blatant flaw with this plan, that we realized much later was that this competition was one which a lot of people from all across the country looked forward to, with some even spending more than a year preparing for it. For us, the first round of the competition was about 20 days away, with the final round in about 2 months time. There was another catch, each team had to have a minimum of 6 members, and after a mix of deliberation &amp;amp; persuation over the next week, we managed to form a team, adding Daniel, Arshia and Damodar to our team, all of whom were our batchmates.&lt;/p&gt;
+&lt;p&gt;The perception that I had about AI when I was in high school was almost entirely built up by the hype around how no chess grandmaster was capable of beating a chess engine (that and JARVIS in Ironman xD ). It was inevitable that the first thing I started reading about, after learning the fundamentals of programming was how to make a chess engine. Today, I appreciate the intricacies of AI and my understanding of the field has evolved since, but when I read about alpha-beta pruning, the elegance of it all to make engines suitable for games with perfect information, removed some of the mystique behind something I had been utterly fascinated by. The game that I chose to make was Tic-Tac-Toe, since I did not want to spend time, on coding up the graphics of chess, but was just interested in making alpha-beta pruning work. It took me a weekend’s time to make this game, but till date, whenever I am bored, I just fire up the game and start playing. There are a plethora of posts explaining alpha-beta pruning (&lt;a href=&quot;https://iq.opengenus.org/alpha-beta-pruning-minimax-algorithm&quot;&gt;refer&lt;/a&gt;), if anyone starting out wants to explore it.&lt;/p&gt;</content><author><name>Yash Sarrof</name></author><category term="Projects" /><summary type="html">Like any other beginner to the field, I have experimented with different technologies, often times collaborating with others to learn more about a particular topic that spurred interest. That over time, has led to me making weird, unsurprisingly unsustainable projects in short bursts. However each of these projects acted as a gateway for me into a new domain, and therefore are memorable for me.</summary></entry><entry><title type="html">The Smart India Hackathon Experience</title><link href="/thoughts/SIHExperience.html" rel="alternate" type="text/html" title="The Smart India Hackathon Experience" /><published>2019-03-11T00:00:00+01:00</published><updated>2019-03-11T00:00:00+01:00</updated><id>/thoughts/SIHExperience</id><content type="html" xml:base="/thoughts/SIHExperience.html">&lt;p&gt;On some night in January 2019, me and my roommates Aadil &amp;amp; Sushant were discussing how the hectic schedule in our college, and all our other commitments for improving our profiles, virtually meant that we weren’t spending time with each other at all. We all agreed that the only way to actually hang out more was to work on the same project. We started looking out for options, and after carefully weighing in our alternatives, we decided on participating in the Smart India Hackathon. The decision was guided by the kind of projects on offer, and a time frame that would have allowed to us to maintain our other commitments, manage classes and assignments and still give about 20 hours per week to this project. A blatant flaw with this plan, that we realized much later was that this competition was one which a lot of people from all across the country looked forward to, with some even spending more than a year preparing for it. For us, the first round of the competition was about 20 days away, with the final round in about 2 months time. There was another catch, each team had to have a minimum of 6 members, and after a mix of deliberation &amp;amp; persuation over the next week, we managed to form a team, adding Daniel, Arshia and Damodar to our team, all of whom were our batchmates.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-1st-round&quot;&gt;The 1st round&lt;/h3&gt;
 
@@ -1029,7 +1020,7 @@ else:
 
 &lt;h3 id=&quot;the-winning-moment&quot;&gt;The Winning moment&lt;/h3&gt;
 
-&lt;p&gt;Once again in great spirits we all headed for the final presentation, this time in a separate hall with extra panelists who had hitherto not been present. It all went smoothly, and we came back to the hall to interact with the other participants. One of the teams said that they had been working on the project for over a year, having had multiple interactions from the Ministry of Culture who were the guiding force behind the problem statement we were a part of. Another team turned out to be former champions of the event, having won the inaugral edition of the hackathon back in 2017. We discussed our proposals with each of them, fraternized with the other teams who had were submitting solutions for other problem statements. It was a lively atmosphere, and we almost did not realize that it was time for the winners to be announced. Every team assembled back at their tables. We got into one final huddle and agreed that if we win, we will get up and go and get our awards with absolute non-chalance à la MS Dhoni (for context he is always calm, no matter the result). Our problem statement was supposed to be the last one to have the winners proclaimed. The guy who was announcing the winners said ‘P-Y’, and we all knew what the next word was gonna be, and before he could finish saying “society” we were ready to get on the stage to collect our award. Everyone was so full of emotion, but we tried our level best to not show a shred of it. We all got out of the hall, took some pictures to mark the occasion. One would expect people to celebrate after such a win, but we all looked at each other and almost telephatically agreed that we all needed sleep before the long train journey back home. Two and a half days later, we arrived back at Manipal around 8:15 in the morning. I rushed directly to the my lab from the station, as it was to start at 8:30 in the morning. I eventually reached about 5 minutes late, but the teacher was kind enough to pardon my shabby appearance (long train journeys tends to do that to you) and late entry. Tanmay, one of my best buddies in class was gesturing, intending to know what had happened at the hackathon. I simply smiled back at him and showed him the victory sign.&lt;/p&gt;</content><author><name>Yash Sarrof</name></author><category term="Thoughts" /><summary type="html">On some night in January 2019, me and my roommates Aadil &amp;amp; Sushant were discussing how the hectic schedule in our college, and all our other commitments for improving our profiles, virtually meant that we weren’t spending time with each other at all. We all agreed that the only way to actually hang out more was to work on the same project. We started looking out for options, and after carefully weighing in our alternatives, we decided on participating in the Smart India Hackathon. The decision was guided by the kind of projects on offer, and a time frame that would have allowed to us to maintain our other commitments, manage classes and assignments and still give about 20 hours per week to this project. A blatant flaw with this plan, that we realized much later was that this competition was one which a lot of people from all across the country looked forward to, with some even spending more than a year preparing for it. For us, the first round of the competition was about 20 days away, with the final round in about 2 months time. There was another catch, each team had to have a minimum of 6 members, and after a mix of deliberation &amp;amp; persuation over the next week, we managed to form a team, adding Daniel, Arshia and Damodar to our team, all of whom were our batchmates.</summary></entry><entry><title type="html">React Native, thou aren’t as complex as thou seem</title><link href="http://localhost:4000/technical/ReactNative.html" rel="alternate" type="text/html" title="React Native, thou aren’t as complex as thou seem" /><published>2018-12-14T00:00:00+05:30</published><updated>2018-12-14T00:00:00+05:30</updated><id>http://localhost:4000/technical/ReactNative</id><content type="html" xml:base="http://localhost:4000/technical/ReactNative.html">&lt;p&gt;During my intership at Optimize IT Systems, my job entailed creating a basic curriculum for React Native, since the company wanted to migrate towards developing mobile applications with it. This post contains snippets from that curriculum along with a mention of the potential pitfalls that one might fall into as a beginner.&lt;/p&gt;
+&lt;p&gt;Once again in great spirits we all headed for the final presentation, this time in a separate hall with extra panelists who had hitherto not been present. It all went smoothly, and we came back to the hall to interact with the other participants. One of the teams said that they had been working on the project for over a year, having had multiple interactions from the Ministry of Culture who were the guiding force behind the problem statement we were a part of. Another team turned out to be former champions of the event, having won the inaugral edition of the hackathon back in 2017. We discussed our proposals with each of them, fraternized with the other teams who had were submitting solutions for other problem statements. It was a lively atmosphere, and we almost did not realize that it was time for the winners to be announced. Every team assembled back at their tables. We got into one final huddle and agreed that if we win, we will get up and go and get our awards with absolute non-chalance à la MS Dhoni (for context he is always calm, no matter the result). Our problem statement was supposed to be the last one to have the winners proclaimed. The guy who was announcing the winners said ‘P-Y’, and we all knew what the next word was gonna be, and before he could finish saying “society” we were ready to get on the stage to collect our award. Everyone was so full of emotion, but we tried our level best to not show a shred of it. We all got out of the hall, took some pictures to mark the occasion. One would expect people to celebrate after such a win, but we all looked at each other and almost telephatically agreed that we all needed sleep before the long train journey back home. Two and a half days later, we arrived back at Manipal around 8:15 in the morning. I rushed directly to the my lab from the station, as it was to start at 8:30 in the morning. I eventually reached about 5 minutes late, but the teacher was kind enough to pardon my shabby appearance (long train journeys tends to do that to you) and late entry. Tanmay, one of my best buddies in class was gesturing, intending to know what had happened at the hackathon. I simply smiled back at him and showed him the victory sign.&lt;/p&gt;</content><author><name>Yash Sarrof</name></author><category term="Thoughts" /><summary type="html">On some night in January 2019, me and my roommates Aadil &amp;amp; Sushant were discussing how the hectic schedule in our college, and all our other commitments for improving our profiles, virtually meant that we weren’t spending time with each other at all. We all agreed that the only way to actually hang out more was to work on the same project. We started looking out for options, and after carefully weighing in our alternatives, we decided on participating in the Smart India Hackathon. The decision was guided by the kind of projects on offer, and a time frame that would have allowed to us to maintain our other commitments, manage classes and assignments and still give about 20 hours per week to this project. A blatant flaw with this plan, that we realized much later was that this competition was one which a lot of people from all across the country looked forward to, with some even spending more than a year preparing for it. For us, the first round of the competition was about 20 days away, with the final round in about 2 months time. There was another catch, each team had to have a minimum of 6 members, and after a mix of deliberation &amp;amp; persuation over the next week, we managed to form a team, adding Daniel, Arshia and Damodar to our team, all of whom were our batchmates.</summary></entry><entry><title type="html">React Native, thou aren’t as complex as thou seem</title><link href="/technical/ReactNative.html" rel="alternate" type="text/html" title="React Native, thou aren’t as complex as thou seem" /><published>2018-12-14T00:00:00+01:00</published><updated>2018-12-14T00:00:00+01:00</updated><id>/technical/ReactNative</id><content type="html" xml:base="/technical/ReactNative.html">&lt;p&gt;During my intership at Optimize IT Systems, my job entailed creating a basic curriculum for React Native, since the company wanted to migrate towards developing mobile applications with it. This post contains snippets from that curriculum along with a mention of the potential pitfalls that one might fall into as a beginner.&lt;/p&gt;
 
 &lt;h3 id=&quot;navigation-between-screens-in-react-native&quot;&gt;Navigation between Screens in React Native&lt;/h3&gt;
 &lt;p&gt;Navigation in React Native is generally enabled through third party modules. Although native node modules to do the same can obviously developed, but the already existing ones work pretty well with practically no downsides. I recommend ‘react-navigation’, &lt;a href=&quot;https://medium.com/the-react-native-log/thousand-ways-to-navigate-in-react-native-f7a1e311a0e8&quot;&gt;This&lt;/a&gt; contains a comparative study with regards to the options available.&lt;/p&gt;
@@ -1061,7 +1052,7 @@ Yarn on one hand, makes a lock file right at the very onset, and uses that to al
 	    }
 	  },
 	  {
-	    initialRouteName: 'A',
+	    initialRouteName: &apos;A&apos;,
 	  }
 	);
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -1089,20 +1080,20 @@ export default TabNavigator(
 	      tabBarIcon: ({ focused, tintColor }) =&amp;gt; {
 	        const { routeName } = navigation.state; 
 	        let iconName = icons[routeName];
-	        let color = (focused) ? '#fff' : '#929292';
+	        let color = (focused) ? &apos;#fff&apos; : &apos;#929292&apos;;
 	        return &amp;lt;MaterialIcons name={iconName} size={35} color={color} /&amp;gt;;
 	      },
 	    }),
-	    tabBarPosition: 'bottom',
+	    tabBarPosition: &apos;bottom&apos;,
 	    animationEnabled: true,
 	    tabBarOptions: {
 	      showIcon: true,
 	      showLabel: false,
-	      style: { backgroundColor: '#333' }
+	      style: { backgroundColor: &apos;#333&apos; }
 	    }
 	  },
 	  {
-	    initialRouteName: 'BS'
+	    initialRouteName: &apos;BS&apos;
 	  }
 );
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -1112,7 +1103,7 @@ export default TabNavigator(
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;Button 
 	onPress={() =&amp;gt; { 
 		navigation.navigate(
-			'pageC',				// the page to go to 
+			&apos;pageC&apos;,				// the page to go to 
 			{ 
 				key1 : Data1,
 				key2 : Data2
@@ -1127,8 +1118,8 @@ export default TabNavigator(
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;static navigationOptions = ({ navigation }) =&amp;gt; {
 	const { params } = navigation.state; // extract params, now using it requires params.data_objname   
   	return {
-        	headerTitle: 'Exercises',
-        	headerStyle: {	backgroundColor: '#333' }, 
+        	headerTitle: &apos;Exercises&apos;,
+        	headerStyle: {	backgroundColor: &apos;#333&apos; }, 
   	}
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -1151,13 +1142,13 @@ yarn add react-navigation
 
 &lt;p&gt;Step 1 : Add to the dependencies section in android/app/build.gradle&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;implementation project(':react-native-sqlite-storage')
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;implementation project(&apos;:react-native-sqlite-storage&apos;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Step 2 : Add to the android/settings.gradle&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;include ':react-native-sqlite-storage'
-project(':react-native-sqlite-storage').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sqlite-storage/src/android'
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;include &apos;:react-native-sqlite-storage&apos;
+project(&apos;:react-native-sqlite-storage&apos;).projectDir = new File(rootProject.projectDir, &apos;../node_modules/react-native-sqlite-storage/src/android&apos;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Step 3 : Add to MainApplication.java&lt;/p&gt;
@@ -1183,8 +1174,8 @@ a new albeit empty database is created. We can even manipulate existing database
 would even consider using SQLite plugins, since although it is used across domains in myriad applications, the plugin provided
 in React Native is slower compared to other alternative, for eg : Realm.&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import {openDatabase} from 'react-native-sqlite-storage'
-var db = openDatabase({name : 'name-of-database.db'})
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import {openDatabase} from &apos;react-native-sqlite-storage&apos;
+var db = openDatabase({name : &apos;name-of-database.db&apos;})
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Thus for illustration a sample operation of all the operations are being shown below :&lt;/p&gt;
@@ -1192,7 +1183,7 @@ var db = openDatabase({name : 'name-of-database.db'})
 &lt;h5 id=&quot;query-a-table&quot;&gt;Query a table&lt;/h5&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;db.transaction(tx =&amp;gt; {
       		tx.executeSql(
-        		'SELECT * FROM table_user where user_id = ?', [this.search_user_id],
+        		&apos;SELECT * FROM table_user where user_id = ?&apos;, [this.search_user_id],
         		(tx, results) =&amp;gt; {
         			// DO SOMETHING WITH THE RESULTS, DISPLAY OR SET VALUES 
         		}
@@ -1204,7 +1195,7 @@ var db = openDatabase({name : 'name-of-database.db'})
 &lt;h5 id=&quot;insert-into-a-table&quot;&gt;Insert into a table&lt;/h5&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;db.transaction(tx =&amp;gt; {
       		tx.executeSql(
-        		'INSERT INTO table_user (user_name, user_id) VALUES (?,?)', [this.state.name,this.state.id],
+        		&apos;INSERT INTO table_user (user_name, user_id) VALUES (?,?)&apos;, [this.state.name,this.state.id],
         		(tx, results) =&amp;gt; {
         			// After execution of the insert statement, this function gets executed 
         		}
@@ -1216,7 +1207,7 @@ var db = openDatabase({name : 'name-of-database.db'})
 &lt;h5 id=&quot;create-a-table&quot;&gt;Create a table&lt;/h5&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;db.transaction(tx =&amp;gt; {
       		tx.executeSql( 
-      			'CREATE TABLE IF NOT EXISTS table_user(user_id INTEGER PRIMARY KEY AUTOINCREMENT, user_name VARCHAR(20)' 
+      			&apos;CREATE TABLE IF NOT EXISTS table_user(user_id INTEGER PRIMARY KEY AUTOINCREMENT, user_name VARCHAR(20)&apos; 
       		)
 		}
 	);
@@ -1225,7 +1216,7 @@ var db = openDatabase({name : 'name-of-database.db'})
 &lt;h5 id=&quot;update-values-in-a-table&quot;&gt;Update values in a table&lt;/h5&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;db.transaction(tx =&amp;gt; {
       		tx.executeSql(
-        		'UPDATE table_user set user_id = ?. user_name = ?', [this.state.id, this.state.name],
+        		&apos;UPDATE table_user set user_id = ?. user_name = ?&apos;, [this.state.id, this.state.name],
         		(tx, results) =&amp;gt; {
         			// After execution of the update statement, this function gets executed 
         		}
@@ -1237,7 +1228,7 @@ var db = openDatabase({name : 'name-of-database.db'})
 &lt;h5 id=&quot;delete&quot;&gt;Delete&lt;/h5&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;db.transaction(tx =&amp;gt; {
       		tx.executeSql(
-        		'DELETE FROM table_user where user_id = ?', [this.search_user_id],
+        		&apos;DELETE FROM table_user where user_id = ?&apos;, [this.search_user_id],
         		(tx, results) =&amp;gt; {
         			// After delete, this function gets executed 
         		}
@@ -1265,13 +1256,13 @@ react-native link realm
 
 &lt;p&gt;1) In the &lt;strong&gt;settings.gradle&lt;/strong&gt; file :&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;include ':realm'
-project(':realm').projectDir = new File(rootProject.projectDir, '../node_modules/realm/android')
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;include &apos;:realm&apos;
+project(&apos;:realm&apos;).projectDir = new File(rootProject.projectDir, &apos;../node_modules/realm/android&apos;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;2) 	In the &lt;strong&gt;android/app/build.gradle&lt;/strong&gt;, if gradle version &amp;lt; 3.0, then replace implementation with compile :&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;implementation project(':realm')
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;implementation project(&apos;:realm&apos;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;3) In &lt;strong&gt;MainApplication.java&lt;/strong&gt; :&lt;/p&gt;
@@ -1288,14 +1279,14 @@ project(':realm').projectDir = new File(rootProject.projectDir, '../node_modules
 &lt;p&gt;Making a schema is equivalent to designing the table structure in SQL. However, the functionality provided by Realm, enables making even extremely complex schemas, very easy to design, since overall design is very similar to the object-oriented design.&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cont Xschema = {
-	name : 'X',
-	primaryKey : 'id',
+	name : &apos;X&apos;,
+	primaryKey : &apos;id&apos;,
 	properties : {
-		name : 'string',
-		id : 'integer',
-		birthday : 'date',
-		achievements : 'achievement[]',
-		death : 'date?',
+		name : &apos;string&apos;,
+		id : &apos;integer&apos;,
+		birthday : &apos;date&apos;,
+		achievements : &apos;achievement[]&apos;,
+		death : &apos;date?&apos;,
 	}
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -1308,7 +1299,7 @@ project(':realm').projectDir = new File(rootProject.projectDir, '../node_modules
 &lt;p&gt;The following code block can be used for inserting an entry in some table, in realm referred to as making a object of a schema&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;realm.write( ()=&amp;gt;  {
-	realm.create('X',{
+	realm.create(&apos;X&apos;,{
 		id : parseInt(this.state.id, 10) ,
 		...
 		..
@@ -1340,7 +1331,7 @@ project(':realm').projectDir = new File(rootProject.projectDir, '../node_modules
 &lt;p&gt;For deleting entities, we will need object references of everything we need to delete, thus we use the query function first to get those references, then we call the delete operation. An example -&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;realm.write(() =&amp;gt; {
-    a = realm.objects('employee').filtered('id =' + parseInt(this.state.id,10))
+    a = realm.objects(&apos;employee&apos;).filtered(&apos;id =&apos; + parseInt(this.state.id,10))
 	if ( a.length &amp;gt; 0 ) {
 		realm.delete(a) ; 
 	}
@@ -1351,7 +1342,7 @@ project(':realm').projectDir = new File(rootProject.projectDir, '../node_modules
 &lt;p&gt;Update is very similar to delete, we simply get the applications, and then we simply update using the object references, just as assignment to any other object is done. An example :&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;realm.write(() =&amp;gt; {
-    obj = realm.objects('employee').filtered('id =' + parseInt(this.state.id,10)) ; 
+    obj = realm.objects(&apos;employee&apos;).filtered(&apos;id =&apos; + parseInt(this.state.id,10)) ; 
     for (i = 0 ; i &amp;lt; obj.length ; i++ ) {
         obj[i].param1 = some_variable ; 
         ...
@@ -1378,32 +1369,32 @@ For detailed information on Promise objects &lt;a href=&quot;https://medium.com/
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;try {
   	AsyncStorage.getItem(
-    	'Key').then(data =&amp;gt; {
+    	&apos;Key&apos;).then(data =&amp;gt; {
       	this.setState({another : data}) // code after **then** dictates what is to be done with the data retrieved
     	}) ;
  	} catch (error) {
-   		console.log('retrieve not happening') 
+   		console.log(&apos;retrieve not happening&apos;) 
  	}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Insert/Update Data -&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;try {
-  AsyncStorage.setItem('Key', JSON.stringify(this.state.textValue)); // set state variable to be equal to key's value
+  AsyncStorage.setItem(&apos;Key&apos;, JSON.stringify(this.state.textValue)); // set state variable to be equal to key&apos;s value
 } catch (error) {
-  console.log('Couldn\'t save') ;
+  console.log(&apos;Couldn\&apos;t save&apos;) ;
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Delete Data -&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;try {
-  AsyncStorage.removeItem('Key', (err) =&amp;gt; {
-       console.log('Deleted...');		// code after comma, dictates action after deleting the value associated with key
+  AsyncStorage.removeItem(&apos;Key&apos;, (err) =&amp;gt; {
+       console.log(&apos;Deleted...&apos;);		// code after comma, dictates action after deleting the value associated with key
   });		
 }
 catch(exception) {
-  console.log('Delete not happening') ; 
+  console.log(&apos;Delete not happening&apos;) ; 
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -1425,7 +1416,7 @@ react-native link react-native-vector-icons
 
 &lt;p&gt;Import it,&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import {Card} from 'react-native-elements'
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import {Card} from &apos;react-native-elements&apos;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Wrap some content in it,&lt;/p&gt;
@@ -1463,8 +1454,8 @@ component ( here someStyle in the styles Stylesheet ) makes the code work,&lt;/p
 
 &lt;p&gt;Thus import statement includes&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import {Permissions, Camera , FileSystem} from 'expo' ; 
-import 'react-native-simple-store'
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import {Permissions, Camera , FileSystem} from &apos;expo&apos; ; 
+import &apos;react-native-simple-store&apos;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;For looking at the camera contents, we simply use &amp;lt;Camera&amp;gt; &amp;lt;/Camera&amp;gt; as we would use &amp;lt;Text&amp;gt; or &amp;lt;Button&amp;gt;, we style it appropriately, however the only difference is we use Modal View to embed the Camera view, and the advantage of using a modal view is the fact that we can actually set as to whether the Modal view is visible at some point, or whether it isn’t.
@@ -1497,7 +1488,7 @@ It becomes really useful with Cameras, since we simulate opening and closing of 
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 	componentWillMount() {
     	Permissions.askAsync(Permissions.CAMERA).then((response) =&amp;gt; {
-      		this.setState({ has_camera_permission: response.status === 'granted' }); 
+      		this.setState({ has_camera_permission: response.status === &apos;granted&apos; }); 
     	});
   	}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -1506,7 +1497,7 @@ status == granted.&lt;/p&gt;
 
 &lt;p&gt;The code to take a picture is given below :&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if(this.camera){ // check whether there's a camera reference
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if(this.camera){ // check whether there&apos;s a camera reference
 	this.camera.takePictureAsync().then((data) =&amp;gt; {
 		// code for processing the picture captured, stored in data... 
 	});
@@ -1530,7 +1521,7 @@ status == granted.&lt;/p&gt;
 		key: // some key 
         name: // some name 
 	};
-	store.push('database_name', photo_data);
+	store.push(&apos;database_name&apos;, photo_data);
 });
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -1556,21 +1547,21 @@ status == granted.&lt;/p&gt;
 
 &lt;p&gt;A solution for this is to replace the line&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	compile/implementation project('react-native-maps')
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	compile/implementation project(&apos;react-native-maps&apos;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;with the following code segments,&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	compile(project(':react-native-maps')) {
-		exclude group: 'com.android.support'
-		exclude module: 'appcompat-v7'
-		exclude module: 'support-v4'
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	compile(project(&apos;:react-native-maps&apos;)) {
+		exclude group: &apos;com.android.support&apos;
+		exclude module: &apos;appcompat-v7&apos;
+		exclude module: &apos;support-v4&apos;
 	}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Now, hereupon we can render the MapView anywhere in the application. It is generally better to render the map with absolute coordinates, an example of a scheme for full screen map shown here :-&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	map: {position:'absolute', top:0, left:0, right:0,bottom:0}
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	map: {position:&apos;absolute&apos;, top:0, left:0, right:0,bottom:0}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Before rendering the Map, import all required components&lt;/p&gt;
@@ -1638,8 +1629,8 @@ react-native link react-native-geocoding
 
 &lt;p&gt;Thereafter we add another API key to our application, one which is capable of doing geocoding. Thus amongst the Google API’s the &lt;em&gt;Places&lt;/em&gt; API suffices. Some other key could also be used.&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import Geododer from 'react-native-geocoding'
-Geocoder.init('---- Insert your API key here ----- ')
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import Geododer from &apos;react-native-geocoding&apos;
+Geocoder.init(&apos;---- Insert your API key here ----- &apos;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Now, a sample conversion of a place’s address to latitude and longitude is given here&lt;/p&gt;
@@ -1672,7 +1663,7 @@ doing the same, differing datatypes must be handled with extreme care.&lt;/p&gt;
 
 &lt;p&gt;Here the data component is the array where the search will be performed, and from which the results will be finally refined. Other components are self explanatory. For discovering other functions associated with the SearchBar component, &lt;a href=&quot;https://react-native-training.github.io/react-native-elements/docs/searchbar.html&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;_Note : Haven’t added details on setting up a React Native Environment, since there are a lot of references available for that. I recommend going through this &lt;a href=&quot;https://github.com/jondot/awesome-react-native&quot;&gt;repository&lt;/a&gt; if you wish to explore React Native in more depth&lt;/p&gt;</content><author><name>Yash Sarrof</name></author><category term="Technical" /><summary type="html">During my intership at Optimize IT Systems, my job entailed creating a basic curriculum for React Native, since the company wanted to migrate towards developing mobile applications with it. This post contains snippets from that curriculum along with a mention of the potential pitfalls that one might fall into as a beginner.</summary></entry><entry><title type="html">A guess about where we are headed</title><link href="http://localhost:4000/thoughts/journey-ahead.html" rel="alternate" type="text/html" title="A guess about where we are headed" /><published>2018-12-06T00:00:00+05:30</published><updated>2018-12-06T00:00:00+05:30</updated><id>http://localhost:4000/thoughts/journey-ahead</id><content type="html" xml:base="http://localhost:4000/thoughts/journey-ahead.html">&lt;p&gt;There hasn’t been such an outlandish spur of developments and advancements as in the past decade since perhaps the 17th Century when the industrial revolution happened, all so without any new major discovery and sans any new scientific breakthrough. The contribution of theoritical Physics and Chemistry, have become  extremely miniscule, in the last quarter of a century. All major advancements in the purest of fields have merely been shoddy proofs of abstract concepts including teleportation, tapping into alternate dimensions (cue - string theory) most of which when generally talked about with the general consensus never fail to invoke smirks at the apparent obscurity, far-fetchedness, and the dogmatic nature of the work being done. Compare that to the technological advancements that we have made, and you have a completly contrasting picture. The progress and extension of ideas has been staggering, with more and more growth in every aspect of living possible, leading to a time, where it has become practically impossible to point out even one activity, or field that hasn’t been 
+&lt;p&gt;_Note : Haven’t added details on setting up a React Native Environment, since there are a lot of references available for that. I recommend going through this &lt;a href=&quot;https://github.com/jondot/awesome-react-native&quot;&gt;repository&lt;/a&gt; if you wish to explore React Native in more depth&lt;/p&gt;</content><author><name>Yash Sarrof</name></author><category term="Technical" /><summary type="html">During my intership at Optimize IT Systems, my job entailed creating a basic curriculum for React Native, since the company wanted to migrate towards developing mobile applications with it. This post contains snippets from that curriculum along with a mention of the potential pitfalls that one might fall into as a beginner.</summary></entry><entry><title type="html">A guess about where we are headed</title><link href="/thoughts/journey-ahead.html" rel="alternate" type="text/html" title="A guess about where we are headed" /><published>2018-12-06T00:00:00+01:00</published><updated>2018-12-06T00:00:00+01:00</updated><id>/thoughts/journey-ahead</id><content type="html" xml:base="/thoughts/journey-ahead.html">&lt;p&gt;There hasn’t been such an outlandish spur of developments and advancements as in the past decade since perhaps the 17th Century when the industrial revolution happened, all so without any new major discovery and sans any new scientific breakthrough. The contribution of theoritical Physics and Chemistry, have become  extremely miniscule, in the last quarter of a century. All major advancements in the purest of fields have merely been shoddy proofs of abstract concepts including teleportation, tapping into alternate dimensions (cue - string theory) most of which when generally talked about with the general consensus never fail to invoke smirks at the apparent obscurity, far-fetchedness, and the dogmatic nature of the work being done. Compare that to the technological advancements that we have made, and you have a completly contrasting picture. The progress and extension of ideas has been staggering, with more and more growth in every aspect of living possible, leading to a time, where it has become practically impossible to point out even one activity, or field that hasn’t been 
 touched by this phenomenon that we are witness to, and this pace is only increasing. Interestingly, there is something called the “Law of accelerating returns” which in its essence implies that the rate of technological change, always has and always will keep increasing exponentially. Studies show that in the coming decade, we are probably going to achieve a 100 times more than what we did in the last decade, and to people who like stability, and love to reminisce about the good old days, this is 
 not a very pleasant pill to swallow.&lt;/p&gt;
 
