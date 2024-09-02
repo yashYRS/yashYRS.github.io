@@ -11,32 +11,26 @@
         .cv-basic-info-item { margin-right: 1em; white-space: nowrap; }
         .cv-basic-info { clear: both; }
         .cv-section-title {
-          font-size: 1.6rem;
           margin: 1rem 0 0.5rem 0;
         }
         .cv-item-title { font-weight: bold; }
-        .cv-item-subtitle { font-style: italic; }
-        .cv-item-content { padding-left: 25px; font-size: 0.9em; font-family: "Times New Roman", serif; }
-        .cv-item-content > ul { padding: 0; margin: 0; font-family: "Times New Roman", serif; }
-        .cv-item-content em { color: #636c72; margin-left: 0.5rem; font-family: "Times New Roman", serif; }
-        .cv-date { float: right; font-size: 0.8em; }
+        .cv-item-subtitle {}
+        .cv-item-content { padding-left: 25px; }
+        .cv-item-content > ul { padding: 0; margin: 0; }
+        .cv-item-content em { color: #636c72; margin-left: 0.5rem;}
+        .cv-date {float: right; font-style: italic;}
+        .cv-item-subtitle-gpa {display: flex; justify-content: space-between;}        
+        .cv-item-gpa {float: right; font-size: 0.9rem;}
         .cv-last-updated { font-style: italic; font-size: 0.8rem; }
     </style>
 
-    <header>
-        <center>
-        <div class="cv-last-updated"> Last updated: {{ cv.last-updated }} </div>
-        <h1 class="cv-name">{{cv.name}}</h1>
-        </center>
-    </header>
-
-    <section class="cv-basic-info">
+    <!--<section class="cv-basic-info">
         <center>
         <span class="cv-basic-info-item"><i class="fa fa-envelope"></i>&nbsp;<a href="mailto:{{cv.email}}">{{cv.email}}</a></span>
         <span class="cv-basic-info-item"><i class="fa fa-mouse-pointer"></i>&nbsp;<a href="{{cv.website_url}}">{{cv.website_name}}</a></span>
         <span class="cv-basic-info-item"><i class="fa fa-map-marker"></i>&nbsp;{{cv.location}}</span>
         </center>
-    </section>
+    </section>-->
 
     {% for sec_id in cv.sections %}
         {% assign section = cv.data[sec_id] %}
@@ -44,7 +38,7 @@
         <section class="cv-section" id="{{sec_id}}">
             
             <header class="cv-section-header">
-              <h2 class="text-primary cv-section-title">{{section.title}}</h2>
+              <h3 class="text-primary cv-section-title">{{section.title}}</h3>
             </header>
 
             <div class="cv-item-content">
@@ -56,21 +50,25 @@
                     <div class="cv-item">
                         <span class="cv-item-title">{{keyvalue[0]}}</span>
                         <span class="cv-date">{{keyvalue[1].date}}</span>
-                        <div class="cv-item-subtitle">{{keyvalue[1].subtitle | markdownify }}</div>
+                        {% if section.title == "Education" %}
+                            <div class="cv-item-subtitle-gpa">
+                                <span class="cv-item-subtitle">{{keyvalue[1].subtitle | markdownify }}</span>
+                                <span class="cv-item-gpa">{{keyvalue[1].gpa}}</span>
+                            </div>
+                        {% else %}
+                            <div class="cv-item-subtitle">{{keyvalue[1].subtitle | markdownify }}</div>
+                        {% endif %}
                         <div class="cv-item-content">{{keyvalue[1].content | markdownify}}</div>
                     </div>
-
                 {% endfor %}
             {% endfor %}
 
+
+
         </section>
     {% endfor %}
+    <center>
+        <div class="cv-last-updated"> Last updated: {{ cv.last-updated }} </div>
+    </center>
 
-</div>
-
-<div class="no-print"/>
-  {{ "---" | markdownify }}
-  <p style="font-size:0.9rem; font-style:italic">
-    This résumé is auto-generated from a <a href="https://github.com/yashYRS/yashyrs.github.io/blob/master/_data/resume.yaml">YAML file</a> You can directly <a href="javascript:if(window.print)window.print()">print this file</a> to get a PDF.
-  </p>
 </div>

@@ -1,0 +1,35 @@
+last-updated: 25th June 2024 # commit date
+
+sections:
+  - about
+  - interests
+  - background
+  - fun
+
+data:
+  about:
+    title: About me
+    para_1: I am a Master's student in the [Language Science and Technology](https://www.uni-saarland.de/en/department/lst/about-us.html) department at Saarland University, Germany, where I work as a Research Assistant in the [Language, Computation, and Cognition Lab](https://lacoco-lab.github.io/home/) under [Dr. Michael Hahn](https://www.mhahn.info).
+
+  interests:
+    title: Research Interests
+    para_1: |
+        My research interests lie at the intersection of **formal languages** and **model interpretability**, with a particular emphasis on exploring the capabilities and limitations of neural network architectures, including Transformers and State Space Models. My goal is to address core questions such as:
+
+    questions: |
+        - Which tasks are these architectures **inherently incapable of performing, regardless of scaling**?
+        - How can we **overcome these limitations** to develop scalable architectures that avoid these pitfalls?
+        - Is it possible to construct a **theoretically grounded framework** that can **predict which in-context learning abilities**, a large scale model based on these architectures might acquire?
+
+    para_2: |
+        I intend to pursue a PhD and utilize formal logic and theoretical computer science to enhance the interpretability of neural models, ultimately contributing to the development of more robust and explainable AI systems.
+
+
+  background:
+    title: Academic and Professional Background
+    para_1: | 
+        I completed my undergraduate degree in Computer Science at [Manipal Institute of Technology](https://www.manipal.edu/mit/department-faculty/department-list/computer-science-and-engineering.html) in 2020. Following my graduation, I spent three years working as a Machine Learning Engineer in the R&D team at [Glib.ai](https://glib.ai). I have also had internships at [Samsung R&D, Bangalore](https://research.samsung.com/sri-b) in their On-Device AI division and at [Novartis](https://www.novartis.com/in-en/), Hyderabad, India.
+  fun: 
+    title: Beyond work
+    para_1: When I’m not buried deep into understanding some research paper or am not scratching my head debugging my code, I indulge my interests to keep myself balanced (or at least that's what I think). I am semi-decent at dancing, enjoy playing chess, and love experimenting with cooking. I am always up for hiking and find the most joy in discussing about philosophical questions and ethical dilemmas. Having these conversations on a hike would be chef's kiss xD. 
+    para_2: Thank you for visiting my page! If you're interested in my work, would like to collaborate or just chat in general, feel free to reach out ! 

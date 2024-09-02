@@ -3,13 +3,15 @@ email: yashsarrof@outlook.com
 website_name: yashsarrof.com
 website_url: https://yashsarrof.com
 location: Saarbrücken, Germany
-last-updated: 25th November 2023 # commit date
+last-updated: 25th June 2024 # commit date
 
 sections:
   - education
   - experience
-  - achievements
+  - publications
+  - talks
   - projects
+  - achievements
   - skills
 
 data:
@@ -18,74 +20,54 @@ data:
     items:
       - Universität des Saarlandes:
           date: 2023 - current
-          subtitle: M.Sc. in Language Science and Technology 
-          content: |
-            - HiWi (Student Researcher) at LaCoCo, headed by Michael Hahn
-            - Computational Linguistics, NLP for Pyscholinguistic Research, Language Evolution
+          gpa: GPA - 1.3 (4.0 on US scale)
+          subtitle: M.Sc. in Computational Linguistics
       - Manipal Institute of Technology:
           date: 2016 - 2020
+          gpa: CGPA - 9.09 / 10
           subtitle: B.Tech Computer Science and Engineering
-          content: |
-              - Minor in Intelligent Systems
-              - CGPA: 9.09/10
+
+
   achievements:
-    title: Accomplisments
+    title: Key Achievements
     text: |
-        - **Winners Smart India Hackathon 2019**: A 36 hour non-stop code sprint, organized
-          by the Government of India with over 3 lakh participants. I was the leader of 6 member
-          team that won the competition, wherein the project we worked upon comprised of a set of
-          games that would test various aspects of a child’s intelligence, based on Gardners Theory of
-          Multiple Intelligence. An AI bot would track the progress of the child playing the game, and
-          try to ascertain the leaning of the child towards a particular module of intelligence
-        - **GE HackElt, Pan India Finalists 2019**: A national level hackathon organized by General
-          Electric India. I was a part of a 3 member team that made it to the top 10. The project made
-          for the same was a Hospital Appointment Management System, that would predict the time a patient
-          would have to wait before getting a consult from a doctor of their choice. Along with it, analytics
-          would be generated for the doctors themselves, highlighting the various fallacies in the overall time
-          management in the hospital.
+      - [**Smart India Hackathon 2019, Winners**](https://github.com/yashYRS/MultipleIntelligence): Led a 6-member team to victory in a 36-hour national hackathon organized by the Government of India with 300,000 participants. Developed an AI-driven game suite based on Gardner's Multiple Intelligences Theory to assess and enhance children's cognitive skills.
+      - [**GE HackElt Pan India 2019, Finalists**](https://github.com/rsarky/Imetay): Part of a top 10 finalist team in a national hackathon by General Electric India. Developed a predictive Hospital Appointment Management System to optimize patient wait times and provide analytics for improved hospital efficiency.
+
   experience:
     title: Relevant Work Experience
     items:
-      - ML Engineer:
-          date: December 2020 - August 2023
-          subtitle: |
-              [Glib.ai](https://glib.ai/)
+      - Research Assistant, Langauge, Computation and Cognition Lab:
+          date: Dec 2023 - current
           content: |
-              - Work in the R&D Department, with a primary focus on developing algorithms
-              that extract relevant information from unstructured financial documents
-      - Intern in the On Device AI division:
-          date: January 2020 - June 2020
-          subtitle: |
-              [Samsung R&D Bangalore](https://research.samsung.com/sri-b)
+              - Theoretical analysis of the strengths and limitations of all neural network building blocks
+              - Investigating the reasons behind length generalisation in transformers
+              
+      - ML Engineer, Glib.ai:
+          date: Dec 2020 - Aug 2023
           content: |
-              - Designed deep learning models for text extraction and script identification 
-              - Worked on data tagging and cleanup for Samsung's Alt Z Features
-      - Project Intern:
-          date: November 2018 - July 2019
-          subtitle: |
-              [Novartis](https://www.novartis.in/)
+              - Lead developer on one of the flagship products Finray, a [financial statement analyser](https://glib.ai/products/financial-statement-analyzer/)
+              - Implemented novel models for automated extraction of relevant tables from long documents 
+      - Intern, Samsung R&D Bangalore:
+          date: Jan 2020 - Jun 2020
+          content: |
+              - Designed deep learning models for text extraction and script identification
+              - Curated datasets, automated parts of data cleaning for Samsung's Alt Z Features
+      - Intern, Novartis India Ltd:
+          date: Nov 2018 - Jul 2019
           content: |
               - Implemented an end to end solution for comparing 2 sets of medical documents
-              - Built a native algorithm for finding semantic similarity between 2 sentences
-              - Designed a model to detect medical terms in any given piece of text
-  projects:
-    title: Selected Projects & Contributions
+              - Designed a model to detect medical terms in a text corpus
+  publications: 
+    title: Publications
     text: |
-        - [**SAdam An Adam Variant**](https://github.com/naruarjun/SADAM-reproducibility): Carried 
-        out a Reproducibility study on the paper SAdam: A Variant of Adam for Strongly Convex
-        Functions and implemented the same in Pytorch.
-        - [**Earthquake Detection System**](https://github.com/yashYRS/DetectEarthquake): A prototype to detect
-        earthquakes based on the fact that most objects in a live feed would vacillate about their positions
-        during earthquakes. The bounding boxes of static objects were kept track of, and in case their positions
-        would deviate to cross a threshold on a prefixed proportion of cameras belonging to the same area, a
-        ping for emergency would be sent out to authorities in charge.
-        - [**Parallelizing Mean Filter based Edge Detection**](https://github.com/tanmay2298/Parallel-Implementation-of-Edge-Detection-Algorithms): The
-        Adaptive edge detection process done using Weiner filter was parallelized and implemented
-        for both the CUDA and the Message Passing Interface frameworks using C
-        - [**Facial Recognition System on a Raspberry Pi**](): A biometric attendance system with an IR sensor
-        for spoof detection. A webserver to view the status of the attendance and an MQTT interface to perform
-        remote transactions on the database were also developed.
-
+        - Sarrof, Y., Veitsman, Y., & Hahn, M. (2024). [**The Expressive Capacity of State Space Models: A Formal Language Perspective**](https://arxiv.org/abs/2405.17394). arXiv preprint
+        - Sarrof, Y. R., & Ranganatha, N. E. [**[Reproducibility Report] SAdam: A Variant of Adam for Strongly Convex Functions**](https://openreview.net/forum?id=eNj0zqNUkBU).
+  talks: 
+    title: Talks
+    text: | 
+       - [**Formal Languages and Neural Networks seminar (FLaNN), 2024**](https://flann.super.site/talks) Expressive Capacity of SSMs
+       - [**TaCoS, Student Conference, 2024**](https://tacosconference.github.io/#Transformers-or-RNNs-or-SSMs-Whos-more-sensitive) Transformers or RNNs or SSMs: Who's more sensitive? 
   skills:
     title: Technical Skills
     text: |

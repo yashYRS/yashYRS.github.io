@@ -1,17 +1,15 @@
-<!doctype html>
-<html>
+---
+layout: default
+---
 
-{% include head.html %}
+{% include lang.html %}
 
-<body>
-
-  <div class="container">
-
-    <div class="post-container">
+<article class="px-1">
+  {% if page.layout == 'page' or page.collection == 'tabs' %}
+    <div class="content">
       {{ content }}
     </div>
-
-  </div>
-
-</body>
-</html>
+  {% else %}
+    {{ content }}
+  {% endif %}
+</article>

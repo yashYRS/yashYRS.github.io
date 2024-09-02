@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{% assign cv = site.data.about %}
+
+{% include lang.html %}
+
+<article class="px-1">
+    <h2 class="dynamic-title">
+      {{ title }}
+    </h2>
+      <div class="cv">
+          <style scoped>
+              .cv-section-title {
+                margin: 1rem 0 0.5rem 0;
+              }
+              .cv-item-title { font-weight: bold; }
+              .cv-item-content { justify-content: space-between;}
+              .cv-point-content > ul {}
+              .cv-last-updated { font-style: italic; font-size: 0.8rem; }
+          </style>
+
+          {% for sec_id in cv.sections %}
+              {% assign section = cv.data[sec_id] %}
+              {{ "---" | markdownify }}
+              <section class="cv-section">
+                  
+                  <header>
+                    <h3 class="cv-section-title">{{section.title}}</h3>
+                  </header>
+
+                  <div class="cv-item-content">
+                  {{ section.para_1 | markdownify }}
+                  </div>
+                  <div class="cv-point-content">
+                  {{ section.questions | markdownify }}
+                  </div>                  
+                  <div class="cv-item-content">
+                  {{ section.para_2 | markdownify }}
+                  </div>                  
+              </section>
+          {% endfor %}
+      <div class="text-center">
+          <a href="https://github.com/yashYRS"><i class="fa-brands fa-github"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://scholar.google.com/citations?user=flWrpAoAAAAJ&hl=en"><i class="fa-brands fa-google-scholar"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://twitter.com/yashYRS"><i class="fa-brands fa-twitter"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://linkedin.com/in/yash-sarrof-094364142"><i class="fa-brands fa-linkedin"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="mailto:ysarrof@lst-uni-saarland.de"><i class="fa-solid fa-envelope"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+      </div>          
+      </div>
+</article>

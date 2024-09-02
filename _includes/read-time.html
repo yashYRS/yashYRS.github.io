@@ -1,21 +1,37 @@
-{% if post.layout != post %}
-  {% assign words = post.content | strip_html | number_of_words %}
-  {% if words < 180 %}
-    less than 1 minute read
-  {% elsif words < 360 %}
-    1 minute read
-  {% else %}
-    {{ words | divided_by:180 }} minute read
-  {% endif %}
-{% endif %}
+<!-- Calculate the post's reading time, and display the word count in tooltip -->
 
-{% if post.layout == post %}
-  {% assign words = content | number_of_words %}
-  {% if words < 180 %}
-    less than 1 minute read
-  {% elsif words < 360 %}
-    1 minute read
-  {% else %}
-    {{ words | divided_by:180 }} minute read
-  {% endif %}
-{% endif %}
+{% assign words = include.content | strip_html | number_of_words: 'auto' %}
+
+<!-- words per minute -->
+
+{% assign wpm = 180 %}
+{% assign min_time = 1 %}
+
+{% assign read_time = words | divided_by: wpm %}
+
+{% unless read_time > 0 %}
+  {% assign read_time = min_time %}
+{% endunless %}
+
+{% capture read_prompt %}
+  {{- site.data.locales[include.lang].post.read_time.prompt -}}
+{% endcapture %}
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="{{ words }} {{ site.data.locales[include.lang].post.words }}"
+>
+  <em>
+    {{- read_time -}}
+    {{ ' ' }}
+    {{- site.data.locales[include.lang].post.read_time.unit -}}
+  </em>
+  {%- if include.prompt -%}
+    {%- assign _prompt_words = read_prompt | number_of_words: 'auto' -%}
+    {%- unless _prompt_words > 1 -%}{{ ' ' }}{%- endunless -%}
+    {{ read_prompt }}
+  {%- endif -%}
+</span>
