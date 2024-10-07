@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yash Sarrof</title>
   <subtitle>Research Assistant working with Dr. Michael Hahn in LaCoCo Lab, Saarland University. I am interested in the interpretability of models both from a mechanistic viewpoint and by using formal methods to enhance our understanding of these models.</subtitle>
-  <updated>2024-09-02T08:53:14+02:00</updated>
+  <updated>2024-10-07T17:19:58+02:00</updated>
   <author>
     <name>Yash Sarrof</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,33 @@
 
   
   <entry>
+    <title>Lost before Translation: Examining Language Death</title>
+    <link href="http://localhost:4000/posts/LanguageDeath/" rel="alternate" type="text/html" title="Lost before Translation: Examining Language Death" />
+    <published>2024-10-07T00:00:00+02:00</published>
+  
+    <updated>2024-10-07T00:00:00+02:00</updated>
+  
+    <id>http://localhost:4000/posts/LanguageDeath/</id>
+    <content src="http://localhost:4000/posts/LanguageDeath/" />
+    <author>
+      <name>Yash Sarrof</name>
+    </author>
+
+  
+    
+  
+
+  <summary>August Schleicher’s Stammbaum Theory of Linguistic Change, introduced in 1871, proposes that the evolution of languages follows a predictable pattern. According to this theory, similarities between languages are akin to genetic relationships, which allows for organizing languages into a tree-like structure, showing how they have diverged and evolved from common ancestors. While this theory prov...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>Getting Started with Table Extraction in Document AI</title>
     <link href="http://localhost:4000/posts/TableContentExtraction/" rel="alternate" type="text/html" title="Getting Started with Table Extraction in Document AI" />
     <published>2021-09-01T00:00:00+02:00</published>
   
-    <updated>2024-08-30T12:43:04+02:00</updated>
+    <updated>2021-09-01T00:00:00+02:00</updated>
   
     <id>http://localhost:4000/posts/TableContentExtraction/</id>
     <content src="http://localhost:4000/posts/TableContentExtraction/" />
@@ -46,7 +68,7 @@
     <link href="http://localhost:4000/posts/SadamOptimizer/" rel="alternate" type="text/html" title="SAdam: An Adam variant that converges faster for convex loss functions" />
     <published>2021-03-29T00:00:00+02:00</published>
   
-    <updated>2024-08-30T12:43:04+02:00</updated>
+    <updated>2021-03-29T00:00:00+02:00</updated>
   
     <id>http://localhost:4000/posts/SadamOptimizer/</id>
     <content src="http://localhost:4000/posts/SadamOptimizer/" />
@@ -68,7 +90,7 @@
     <link href="http://localhost:4000/posts/Hopeless/" rel="alternate" type="text/html" title="Agony, expectation, relief &amp;amp; the journey in between" />
     <published>2020-12-18T00:00:00+01:00</published>
   
-    <updated>2024-08-30T12:43:04+02:00</updated>
+    <updated>2020-12-18T00:00:00+01:00</updated>
   
     <id>http://localhost:4000/posts/Hopeless/</id>
     <content src="http://localhost:4000/posts/Hopeless/" />
@@ -90,7 +112,7 @@
     <link href="http://localhost:4000/posts/LinuxTools/" rel="alternate" type="text/html" title="My Personal Productivity Hacks: Open Source Tools for the Adventurous Linux User" />
     <published>2020-10-10T00:00:00+02:00</published>
   
-    <updated>2024-08-30T12:43:04+02:00</updated>
+    <updated>2020-10-10T00:00:00+02:00</updated>
   
     <id>http://localhost:4000/posts/LinuxTools/</id>
     <content src="http://localhost:4000/posts/LinuxTools/" />
@@ -103,28 +125,6 @@
   
 
   <summary>As a Computer Science engineer every miniscule jump in productivity in and around the workspace tends to have a butterfly effect, and ends up being a huge time savior. Over the years, I have disovered a few open source programs that have had a similar effect for me, and despite a oblique learning curve for most of them, they have become indispensible aspects of my working environment. It should...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Using Gardner's Multiple Intelligence Theory to gauge aptitude of children</title>
-    <link href="http://localhost:4000/posts/GardnerTheory/" rel="alternate" type="text/html" title="Using Gardner&amp;apos;s Multiple Intelligence Theory to gauge aptitude of children" />
-    <published>2020-03-10T00:00:00+01:00</published>
-  
-    <updated>2024-08-30T12:43:04+02:00</updated>
-  
-    <id>http://localhost:4000/posts/GardnerTheory/</id>
-    <content src="http://localhost:4000/posts/GardnerTheory/" />
-    <author>
-      <name>Yash Sarrof</name>
-    </author>
-
-  
-    
-  
-
-  <summary>Howard Gardner in 1983 came up with a theory to challenge the traditional view on Intelligence. According to him, cognitive abilities of an individual does not solely constitue intelligence. He classified Intelligence into 8 categories viz. Linguistic (Word Smart), Logical/Mathematical (Math Smart), Spatial (Picture Smart), Bodily-Kinesthetic (Body Smart), Musical (Music Smart), Interpersonal (...</summary>
 
   </entry>
 
