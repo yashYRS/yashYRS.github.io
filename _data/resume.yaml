@@ -37,7 +37,7 @@ data:
   experience:
     title: Relevant Work Experience
     items:
-      - Research Assistant, Langauge, Computation and Cognition Lab:
+      - Research Assistant, Language, Computation and Cognition Lab:
           date: Dec 2023 - current
           content: |
               - Theoretical analysis of the strengths and limitations of all neural network building blocks
@@ -61,12 +61,12 @@ data:
   publications: 
     title: Publications
     text: |
-        - Sarrof, Y., Veitsman, Y., & Hahn, M. (2024). [**The Expressive Capacity of State Space Models: A Formal Language Perspective**](https://arxiv.org/abs/2405.17394). arXiv preprint
-        - Sarrof, Y. R., & Ranganatha, N. E. [**[Reproducibility Report] SAdam: A Variant of Adam for Strongly Convex Functions**](https://openreview.net/forum?id=eNj0zqNUkBU).
+        - Huang, X., Yang, A., Bhattamishra, S., **Sarrof, Y.**, Krebs, A., Zhou, H., Nakkiran, P., & Hahn, M. (2024). [**A Formal Framework for Understanding Length Generalization in Transformers**](https://arxiv.org/abs/2410.02140). under Review at ICLR 2025
+        - **Sarrof, Y.**, Veitsman, Y., & Hahn, M. (2024). [**The Expressive Capacity of State Space Models: A Formal Language Perspective**](https://arxiv.org/abs/2405.17394). NeurIPS, 2024
   talks: 
     title: Talks
     text: | 
-       - [**Formal Languages and Neural Networks seminar (FLaNN), 2024**](https://flann.super.site/talks) Expressive Capacity of SSMs
+       - [**Formal Languages and Neural Networks seminar (FLaNN), 2024**](https://youtu.be/-CBUWqvmVVU?si=adZshKTmouDs4srV) Expressive Capacity of SSMs
        - [**TaCoS, Student Conference, 2024**](https://tacosconference.github.io/#Transformers-or-RNNs-or-SSMs-Whos-more-sensitive) Transformers or RNNs or SSMs: Who's more sensitive? 
   skills:
     title: Technical Skills
