@@ -3,7 +3,7 @@ email: yashsarrof@outlook.com
 website_name: yashsarrof.com
 website_url: https://yashsarrof.com
 location: Saarbrücken, Germany
-last-updated: 25th June 2024 # commit date
+last-updated: 23th Januray 2025 # commit date
 
 sections:
   - education
@@ -20,7 +20,7 @@ data:
     items:
       - Universität des Saarlandes:
           date: 2023 - current
-          gpa: GPA - 1.3 (4.0 on US scale)
+          gpa: GPA - 1.2 (4.0 on US scale)
           subtitle: M.Sc. in Computational Linguistics
       - Manipal Institute of Technology:
           date: 2016 - 2020
@@ -61,11 +61,14 @@ data:
   publications: 
     title: Publications
     text: |
-        - Huang, X., Yang, A., Bhattamishra, S., **Sarrof, Y.**, Krebs, A., Zhou, H., Nakkiran, P., & Hahn, M. (2024). [**A Formal Framework for Understanding Length Generalization in Transformers**](https://arxiv.org/abs/2410.02140). under Review at ICLR 2025
-        - **Sarrof, Y.**, Veitsman, Y., & Hahn, M. (2024). [**The Expressive Capacity of State Space Models: A Formal Language Perspective**](https://arxiv.org/abs/2405.17394). NeurIPS, 2024
+        - Huang, X., Yang, A., Bhattamishra, S., **Sarrof, Y.**, Krebs, A., Zhou, H., Nakkiran, P., & Hahn, M. (2025). [**A Formal Framework for Understanding Length Generalization in Transformers**](https://openreview.net/pdf?id=U49N5V51rU). **ICLR 2025**
+        - **Sarrof, Y** (2025). [**Homophonic Pun Generation in Code Mixed Hindi English**](https://coling-2025-proceedings.s3.us-east-1.amazonaws.com/workshops/CHum/pdf/2025.chum-1.4.pdf), 1st Computational Humour Workshop, COLING 2025
+        - **Sarrof, Y.**, Veitsman, Y., & Hahn, M. (2024). [**The Expressive Capacity of State Space Models: A Formal Language Perspective**](https://arxiv.org/abs/2405.17394). **NeurIPS, 2024**
+        
   talks: 
     title: Talks
     text: | 
+       - [**Computational Humour Worskhop, COLING 2025**](https://chum2025.github.io/program.html) Homophonic Pun Generation in Code Mixed Hindi English
        - [**Formal Languages and Neural Networks seminar (FLaNN), 2024**](https://youtu.be/-CBUWqvmVVU?si=adZshKTmouDs4srV) Expressive Capacity of SSMs
        - [**TaCoS, Student Conference, 2024**](https://tacosconference.github.io/#Transformers-or-RNNs-or-SSMs-Whos-more-sensitive) Transformers or RNNs or SSMs: Who's more sensitive? 
   skills:
