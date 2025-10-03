@@ -19,9 +19,9 @@ plugins:
 
 title: Yash Sarrof # the main title
 
-tagline: M.Sc. Student # it will display as the sub-title
+tagline: PhD Student # it will display as the sub-title
 
-description: Research Assistant working with Dr. Michael Hahn in LaCoCo Lab, Saarland University. I am interested in the interpretability of models both from a mechanistic viewpoint and by using formal methods to enhance our understanding of these models.
+description: PhD Student working with Dr. Michael Hahn in LaCoCo Lab, Saarland University. I try to use and develop formal methods to enhance our understanding of modern LLMs.
   
 
 # Fill in the protocol & hostname for your site.

@@ -3,13 +3,15 @@ email: yashsarrof@outlook.com
 website_name: yashsarrof.com
 website_url: https://yashsarrof.com
 location: Saarbrücken, Germany
-last-updated: 23th Januray 2025 # commit date
+last-updated: 3rd October 2025 # commit date
 
 sections:
   - education
   - experience
   - publications
   - talks
+  - teaching
+  - volunteering
   - projects
   - achievements
   - skills
@@ -19,14 +21,18 @@ data:
     title: Education
     items:
       - Universität des Saarlandes:
-          date: 2023 - current
+          date: 2025 - current
+          gpa: Advisor - Dr. Michael Hahn
+          subtitle: Ph.D. student in Computer Science
+          
+      - Universität des Saarlandes:
+          date: 2023 - 2025
           gpa: GPA - 1.2 (4.0 on US scale)
           subtitle: M.Sc. in Computational Linguistics
       - Manipal Institute of Technology:
           date: 2016 - 2020
           gpa: CGPA - 9.09 / 10
           subtitle: B.Tech Computer Science and Engineering
-
 
   achievements:
     title: Key Achievements
@@ -37,44 +43,62 @@ data:
   experience:
     title: Relevant Work Experience
     items:
-      - Research Assistant, Language, Computation and Cognition Lab:
-          date: Dec 2023 - current
+      - Research Assistant in Language, Computation and Cognition Lab:
+          date: Dec 2023 - Sep 2025
           content: |
-              - Theoretical analysis of the strengths and limitations of all neural network building blocks
-              - Investigating the reasons behind length generalisation in transformers
-              
+            - Theoretical analysis of the strengths and limitations of all neural network building blocks
+            - Studying Length Generalisation in Transformers
       - ML Engineer, Glib.ai:
           date: Dec 2020 - Aug 2023
           content: |
-              - Lead developer on one of the flagship products Finray, a [financial statement analyser](https://glib.ai/products/financial-statement-analyzer/)
-              - Implemented novel models for automated extraction of relevant tables from long documents 
+            - Lead developer on one of the flagship products Finray, a [financial statement analyser](https://glib.ai/products/financial-statement-analyzer/)
+            - Implemented novel models for automated extraction of relevant tables from long documents
       - Intern, Samsung R&D Bangalore:
           date: Jan 2020 - Jun 2020
           content: |
-              - Designed deep learning models for text extraction and script identification
-              - Curated datasets, automated parts of data cleaning for Samsung's Alt Z Features
+            - Designed deep learning models for text extraction and script identification
+            - Curated datasets, automated parts of data cleaning for Samsung's Alt Z Features
       - Intern, Novartis India Ltd:
           date: Nov 2018 - Jul 2019
           content: |
-              - Implemented an end to end solution for comparing 2 sets of medical documents
-              - Designed a model to detect medical terms in a text corpus
-  publications: 
+            - Implemented an end to end solution for comparing 2 sets of medical documents
+            - Designed a model to detect medical terms in a text corpus
+
+  publications:
     title: Publications
     text: |
+        - Veitsman, Y., Jobanputra, M., **Sarrof, Y.**, Bakalova, A., Demberg, V., Pavlick, E., & Hahn, M. (2025). [**Born a Transformer--Always a Transformer?**](https://openreview.net/forum?id=eV5YIrJPdy). **NeurIPS 2025**
         - Huang, X., Yang, A., Bhattamishra, S., **Sarrof, Y.**, Krebs, A., Zhou, H., Nakkiran, P., & Hahn, M. (2025). [**A Formal Framework for Understanding Length Generalization in Transformers**](https://openreview.net/pdf?id=U49N5V51rU). **ICLR 2025**
         - **Sarrof, Y** (2025). [**Homophonic Pun Generation in Code Mixed Hindi English**](https://coling-2025-proceedings.s3.us-east-1.amazonaws.com/workshops/CHum/pdf/2025.chum-1.4.pdf), 1st Computational Humour Workshop, COLING 2025
         - **Sarrof, Y.**, Veitsman, Y., & Hahn, M. (2024). [**The Expressive Capacity of State Space Models: A Formal Language Perspective**](https://arxiv.org/abs/2405.17394). **NeurIPS, 2024**
         
-  talks: 
+
+  talks:
     title: Talks
-    text: | 
-       - [**Computational Humour Worskhop, COLING 2025**](https://chum2025.github.io/program.html) Homophonic Pun Generation in Code Mixed Hindi English
-       - [**Formal Languages and Neural Networks seminar (FLaNN), 2024**](https://youtu.be/-CBUWqvmVVU?si=adZshKTmouDs4srV) Expressive Capacity of SSMs
-       - [**TaCoS, Student Conference, 2024**](https://tacosconference.github.io/#Transformers-or-RNNs-or-SSMs-Whos-more-sensitive) Transformers or RNNs or SSMs: Who's more sensitive? 
+    text: |
+      - **[LCT Summer School 2025](https://www.linkedin.com/posts/em-lct_%F0%9D%90%8B%F0%9D%90%82%F0%9D%90%93-%F0%9D%90%92%F0%9D%90%AE%F0%9D%90%A6%F0%9D%90%A6%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%92%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%A8%F0%9D%90%A8%F0%9D%90%A5-%F0%9D%9F%90%F0%9D%9F%8E%F0%9D%9F%90%F0%9D%9F%93-activity-7370841399447146496-HhQ3?utm_source=share&utm_medium=member_desktop&rcm=ACoAACKUhXAByKXmIBLVIFg5jq6my0qV9Lm-qYE)** Prompting Workshop
+      - [**Computational Humour Workshop, COLING 2025**](https://chum2025.github.io/program.html) Homophonic Pun Generation in Code Mixed Hindi English
+      - [**Formal Languages and Neural Networks seminar (FLaNN), 2024**](https://youtu.be/-CBUWqvmVVU?si=adZshKTmouDs4srV) Expressive Capacity of SSMs
+      - [**TaCoS, Student Conference, 2024**](https://tacosconference.github.io/#Transformers-or-RNNs-or-SSMs-Whos-more-sensitive) Transformers or RNNs or SSMs: Who's more sensitive?
+
+  teaching:
+    title: Teaching
+    text: |
+      - **[Milestones in Machine Learning](https://lacoco-lab.github.io/courses/classics-25/), Lead Instructor Winter 2025**
+      - **Computational Linguistics, Tutor Winter 2024**
+
+  volunteering:
+    title: Volunteering
+    text: |
+      - **Reviewer** : NeurIPS 2025
+      - **Organizer** :
+        - [LangLunches](https://langlunches.github.io/), a biweekly research talk series at Saarland University
+        - [NeurIPS ELLIS Poster Session](https://lacoco-lab.github.io/events/PreNeurIPS2024/) 2024 at Saarland University
+      - **Student Council Member**, Department of Language Science and Technology, Saarland University
+
   skills:
     title: Technical Skills
     text: |
-        - **Languages**: Python, C, C++
-        - **Web Frameworks**: Django, Flask
-        - **Deep Learning Frameworks**: PyTorch, TensorFlow
-        
+      - **Languages**: Python, C, C++
+      - **Web Frameworks**: Django, Flask
+      - **Deep Learning Frameworks**: PyTorch, TensorFlow
