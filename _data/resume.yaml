@@ -27,7 +27,7 @@ data:
           
       - Universität des Saarlandes:
           date: 2023 - 2025
-          gpa: GPA - 1.2 (4.0 on US scale)
+          gpa: GPA - 1.1 (4.0 on US scale)
           subtitle: M.Sc. in Computational Linguistics
       - Manipal Institute of Technology:
           date: 2016 - 2020
@@ -35,10 +35,12 @@ data:
           subtitle: B.Tech Computer Science and Engineering
 
   achievements:
-    title: Key Achievements
-    text: |
-      - [**Smart India Hackathon 2019, Winners**](https://github.com/yashYRS/MultipleIntelligence): Led a 6-member team to victory in a 36-hour national hackathon organized by the Government of India with 300,000 participants. Developed an AI-driven game suite based on Gardner's Multiple Intelligences Theory to assess and enhance children's cognitive skills.
-      - [**GE HackElt Pan India 2019, Finalists**](https://github.com/rsarky/Imetay): Part of a top 10 finalist team in a national hackathon by General Electric India. Developed a predictive Hospital Appointment Management System to optimize patient wait times and provide analytics for improved hospital efficiency.
+      title: Honors and Awards
+      text: |
+        - [**Top Reviewer, NeurIPS 2025**](https://neurips.cc/Conferences/2025/ProgramCommittee#top-reviewer): Recognized among the top 10% of reviewers of the conference. 
+        - **Masters with Distinction**: Awarded for achieving an overall grade of 1.1; distinction is reserved for cumulative grades of 1.1 or lower (1.0 is the highest possible grade).
+        - [**Winner, Smart India Hackathon 2019**](https://github.com/yashYRS/MultipleIntelligence): Led a 6-member team to 1st place in a national 36-hour hackathon involving 300,000 participants. Developed an AI-driven game suite to assess children's cognitive skills.
+        - [**Finalist, GE HackElt Pan India 2019**](https://github.com/rsarky/Imetay): Selected as a top 10 national finalist for developing a predictive hospital management system to reduce patient wait times using data analytics.
 
   experience:
     title: Relevant Work Experience
@@ -84,8 +86,8 @@ data:
   teaching:
     title: Teaching
     text: |
-      - **[Milestones in Machine Learning](https://lacoco-lab.github.io/courses/classics-25/), Lead Instructor Winter 2025**
-      - **Computational Linguistics, Tutor Winter 2024**
+      - **[Milestones in Machine Learning](https://lacoco-lab.github.io/courses/classics-25/), Lead Instructor, Winter 2025**
+      - **Computational Linguistics, Tutor, Winter 2024**
 
   volunteering:
     title: Volunteering
@@ -93,7 +95,8 @@ data:
       - **Reviewer** : NeurIPS 2025
       - **Organizer** :
         - [LangLunches](https://langlunches.github.io/), a biweekly research talk series at Saarland University
-        - [NeurIPS ELLIS Poster Session](https://lacoco-lab.github.io/events/PreNeurIPS2024/) 2024 at Saarland University
+        - [NeurIPS ELLIS Poster Session, Saarbrücken, 2025](https://lacoco-lab.github.io/events/PreNeurIPS2025/)
+        - [NeurIPS ELLIS Poster Session, Saarbrücken, 2024](https://lacoco-lab.github.io/events/PreNeurIPS2024/)
       - **Student Council Member**, Department of Language Science and Technology, Saarland University
 
   skills:
