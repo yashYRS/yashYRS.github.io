@@ -3,7 +3,7 @@ email: yashsarrof@outlook.com
 website_name: yashsarrof.com
 website_url: https://yashsarrof.com
 location: Saarbrücken, Germany
-last-updated: 3rd October 2025 # commit date
+last-updated: 24th March 2026 # commit date
 
 sections:
   - education
@@ -69,15 +69,17 @@ data:
   publications:
     title: Publications
     text: |
-        - Veitsman, Y., Jobanputra, M., **Sarrof, Y.**, Bakalova, A., Demberg, V., Pavlick, E., & Hahn, M. (2025). [**Born a Transformer--Always a Transformer?**](https://openreview.net/forum?id=eV5YIrJPdy). **NeurIPS 2025**
-        - Huang, X., Yang, A., Bhattamishra, S., **Sarrof, Y.**, Krebs, A., Zhou, H., Nakkiran, P., & Hahn, M. (2025). [**A Formal Framework for Understanding Length Generalization in Transformers**](https://openreview.net/pdf?id=U49N5V51rU). **ICLR 2025**
-        - **Sarrof, Y** (2025). [**Homophonic Pun Generation in Code Mixed Hindi English**](https://coling-2025-proceedings.s3.us-east-1.amazonaws.com/workshops/CHum/pdf/2025.chum-1.4.pdf), 1st Computational Humour Workshop, COLING 2025
-        - **Sarrof, Y.**, Veitsman, Y., & Hahn, M. (2024). [**The Expressive Capacity of State Space Models: A Formal Language Perspective**](https://arxiv.org/abs/2405.17394). **NeurIPS, 2024**
+        - [**On the Ability of Transformers to Verify Plans.**](https://arxiv.org/abs/2603.19954) <u><strong>Sarrof, Y.</strong></u>, Du, Y., Stein, K., Koller, A., Thi'ebaux, S., & Hahn, M. (2026). **Preprint 2026**.
+        - [**Born a Transformer--Always a Transformer? On the effect of Pretraining on Architectural Abilities.**](https://openreview.net/forum?id=eV5YIrJPdy). Jobanputra, M., Veitsman, Y., - <u><strong>Sarrof, Y.</strong></u>, Bakalova, A., Demberg, V., Pavlick, E., & Hahn, M.  **NeurIPS 2025**
+        - [**A Formal Framework for Understanding Length Generalization in Transformers.**](https://openreview.net/pdf?id=U49N5V51rU) Huang, X., Yang, A., Bhattamishra, S., - <u><strong>Sarrof, Y.</strong></u>, Krebs, A., Zhou, H., Nakkiran, P., & Hahn, M. **ICLR 2025**
+        - [**Homophonic Pun Generation in Code Mixed Hindi English.**](https://coling-2025-proceedings.s3.us-east-1.amazonaws.com/workshops/CHum/pdf/2025.chum-1.4.pdf) <u><strong>Sarrof, Y.</strong></u>. 1st Computational Humour Workshop, **COLING 2025**
+        - [**The Expressive Capacity of State Space Models: A Formal Language Perspective.**](https://arxiv.org/abs/2405.17394). <u><strong>Sarrof, Y.</strong></u>, Veitsman, Y., & Hahn, M. **NeurIPS, 2024**
         
 
   talks:
     title: Talks
     text: |
+      - **[Ploutus AI](https://ploutos.dev/streams/gainful-lori-of-endurance/)** Born a Transformer--Always a Transformer? On the effect of Pretraining on Architectural Abilities.
       - **[LCT Summer School 2025](https://www.linkedin.com/posts/em-lct_%F0%9D%90%8B%F0%9D%90%82%F0%9D%90%93-%F0%9D%90%92%F0%9D%90%AE%F0%9D%90%A6%F0%9D%90%A6%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%92%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%A8%F0%9D%90%A8%F0%9D%90%A5-%F0%9D%9F%90%F0%9D%9F%8E%F0%9D%9F%90%F0%9D%9F%93-activity-7370841399447146496-HhQ3?utm_source=share&utm_medium=member_desktop&rcm=ACoAACKUhXAByKXmIBLVIFg5jq6my0qV9Lm-qYE)** Prompting Workshop
       - [**Computational Humour Workshop, COLING 2025**](https://chum2025.github.io/program.html) Homophonic Pun Generation in Code Mixed Hindi English
       - [**Formal Languages and Neural Networks seminar (FLaNN), 2024**](https://youtu.be/-CBUWqvmVVU?si=adZshKTmouDs4srV) Expressive Capacity of SSMs
@@ -86,13 +88,14 @@ data:
   teaching:
     title: Teaching
     text: |
+      - **[Theory of Machine Learning for Language Models](https://lacoco-lab.github.io/courses/ml-theory-2026/), Co teaching with Michael Hahn, Summer 2026**
       - **[Milestones in Machine Learning](https://lacoco-lab.github.io/courses/classics-25/), Lead Instructor, Winter 2025**
       - **Computational Linguistics, Tutor, Winter 2024**
 
   volunteering:
     title: Volunteering
     text: |
-      - **Reviewer** : NeurIPS 2025
+      - **Reviewer** : ICML 2026, CoNLL 2026, NeurIPS 2025
       - **Organizer** :
         - [LangLunches](https://langlunches.github.io/), a biweekly research talk series at Saarland University
         - [NeurIPS ELLIS Poster Session, Saarbrücken, 2025](https://lacoco-lab.github.io/events/PreNeurIPS2025/)
