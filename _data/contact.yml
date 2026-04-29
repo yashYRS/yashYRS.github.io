@@ -15,6 +15,10 @@
   icon: 'fab fa-google-scholar'
   url: 'https://scholar.google.com/citations?user=flWrpAoAAAAJ&hl=en'
 
+- type: linkedin
+  icon: 'fab fa-linkedin'
+  url: 'https://www.linkedin.com/in/yash-sarrof-094364142/'
+
 # - type: rss
 #   icon: "fas fa-rss"
 #   noblank: true
