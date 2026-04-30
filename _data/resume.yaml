@@ -70,7 +70,7 @@ data:
     title: Publications
     text: |
         - [**Barriers to Universal Reasoning With Transformers (And How to Overcome Them).**](https://arxiv.org/abs/2604.25800) Kraus O.<sup>†</sup>, <u><strong>Sarrof, Y.<sup>†</sup></strong></u>, Yao, Y., Koller, A., & Hahn, M. (2026). **Preprint 2026**. <small>(<sup>†</sup>Equal contribution)</small>
-        - [**On the Ability of Transformers to Verify Plans.**](https://arxiv.org/abs/2603.19954) <u><strong>Sarrof, Y.</strong></u>, Du, Y., Stein, K., Koller, A., Thi'ebaux, S., & Hahn, M. (2026). **Preprint 2026**.
+        - [**On the Ability of Transformers to Verify Plans.**](https://arxiv.org/abs/2603.19954) <u><strong>Sarrof, Y.</strong></u>, Du, Y., Stein, K., Koller, A., Thi'ebaux, S., & Hahn, M. (2026). **ICML 2026**.
         - [**Born a Transformer--Always a Transformer? On the effect of Pretraining on Architectural Abilities.**](https://openreview.net/forum?id=eV5YIrJPdy) Jobanputra, M., Veitsman, Y., - <u><strong>Sarrof, Y.</strong></u>, Bakalova, A., Demberg, V., Pavlick, E., & Hahn, M.  **NeurIPS 2025**
         - [**A Formal Framework for Understanding Length Generalization in Transformers.**](https://openreview.net/pdf?id=U49N5V51rU) Huang, X., Yang, A., Bhattamishra, S., - <u><strong>Sarrof, Y.</strong></u>, Krebs, A., Zhou, H., Nakkiran, P., & Hahn, M. **ICLR 2025**
         - [**Homophonic Pun Generation in Code Mixed Hindi English.**](https://coling-2025-proceedings.s3.us-east-1.amazonaws.com/workshops/CHum/pdf/2025.chum-1.4.pdf) <u><strong>Sarrof, Y.</strong></u>. 1st Computational Humour Workshop, **COLING 2025**
