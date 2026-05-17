@@ -3,7 +3,7 @@ email: yashsarrof@outlook.com
 website_name: yashsarrof.com
 website_url: https://yashsarrof.com
 location: Saarbrücken, Germany
-last-updated: 24th March 2026 # commit date
+last-updated: 17th May 2026 # commit date
 
 sections:
   - education
@@ -37,6 +37,7 @@ data:
   achievements:
       title: Honors and Awards
       text: |
+        - [**Gold Reviewer, ICML 2026**](https://icml.cc/Conferences/2026): Recognized among the top 25% of reviewers of the conference.
         - [**Top Reviewer, NeurIPS 2025**](https://neurips.cc/Conferences/2025/ProgramCommittee#top-reviewer): Recognized among the top 10% of reviewers of the conference. 
         - **Masters with Distinction**: Awarded for achieving an overall grade of 1.1; distinction is reserved for cumulative grades of 1.1 or lower (1.0 is the highest possible grade).
         - [**Winner, Smart India Hackathon 2019**](https://github.com/yashYRS/MultipleIntelligence): Led a 6-member team to 1st place in a national 36-hour hackathon involving 300,000 participants. Developed an AI-driven game suite to assess children's cognitive skills.
