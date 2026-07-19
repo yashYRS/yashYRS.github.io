@@ -30,15 +30,19 @@ layout: default
                     <h3 class="cv-section-title">{{section.title}}</h3>
                   </header>
 
-                  <div class="cv-item-content">
-                  {{ section.para_1 | markdownify }}
-                  </div>
-                  <div class="cv-point-content">
-                  {{ section.questions | markdownify }}
-                  </div>                  
-                  <div class="cv-item-content">
-                  {{ section.para_2 | markdownify }}
-                  </div>                  
+                  {% if sec_id == "news" %}
+                    {% include news-list.html limit=5 compact=true show_more=true %}
+                  {% else %}
+                    <div class="cv-item-content">
+                    {{ section.para_1 | markdownify }}
+                    </div>
+                    <div class="cv-point-content">
+                    {{ section.questions | markdownify }}
+                    </div>
+                    <div class="cv-item-content">
+                    {{ section.para_2 | markdownify }}
+                    </div>
+                  {% endif %}
               </section>
           {% endfor %}
       <div class="text-center">

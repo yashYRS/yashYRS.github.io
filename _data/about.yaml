@@ -1,8 +1,9 @@
-last-updated: 3rd October 2025 # commit date
+last-updated: 19th July 2026 # content update
 
 sections:
   - about
   - interests
+  - news
   - background
   - fun
 
@@ -14,19 +15,22 @@ data:
   interests:
     title: Research Interests
     para_1: |
-        My research interests mainly lies in trying to understand the capabilities and limitations of architectures powering the most powerful AI models of today -- Transformers and State Space Models. My goal is to address core questions such as:
+        My research interests mainly lie in trying to understand the capabilities and limitations of architectures powering the most powerful AI models of today -- Transformers and State Space Models. My goal is to address core questions such as:
 
     questions: |
         - Which tasks are these architectures **inherently incapable of performing, regardless of how much we scale them up**?
         - How can we **engineer our way around these limitations** to build more robust and scalable architectures?
         - Can we develop a **theoretically sound framework** that actually **predicts the in-context learning abilities** a large-scale model might develop?
 
+  news:
+    title: Recent news
+
   background:
     title: Academic and Professional Background
-    para_1: | 
-        I also did my Masters in the [Language Science and Technology](https://www.uni-saarland.de/en/department/lst/about-us.html) department at Saarland University, Germany and have then continued on to do my PhD here. 
+    para_1: |
+        I completed my Master's in the [Language Science and Technology](https://www.uni-saarland.de/en/department/lst/about-us.html) department at Saarland University, Germany, and then continued on to do my PhD here.
         Before that, I completed my undergraduate degree in Computer Science at [Manipal Institute of Technology](https://www.manipal.edu/mit/department-faculty/department-list/computer-science-and-engineering.html) in 2020. Following that, I spent three years working as a Machine Learning Engineer in the R&D team at [Glib.ai](https://glib.ai). I have also had internships at [Samsung R&D, Bangalore](https://research.samsung.com/sri-b) in their On-Device AI division and at [Novartis](https://www.novartis.com/in-en/), Hyderabad, India.
-  fun: 
+  fun:
     title: Beyond work
-    para_1: When I’m not buried deep into understanding some research paper or am not scratching my head debugging my code, I indulge my interests to keep myself balanced (or at least that's what I think). I am semi-decent at dancing, enjoy playing chess, and love experimenting with cooking. I am always up for hiking and find the most joy in discussing about philosophical questions and ethical dilemmas. Having these conversations on a hike would be chef's kiss xD. 
-    para_2: Thank you for visiting my page! If you're interested in my work, would like to collaborate or just chat in general, feel free to reach out ! 
+    para_1: When I’m not buried deep into understanding some research paper or am not scratching my head debugging my code, I indulge my interests to keep myself balanced (or at least that's what I think). I am semi-decent at dancing, enjoy playing chess, and love experimenting with cooking. I am always up for hiking and find the most joy in discussing about philosophical questions and ethical dilemmas. Having these conversations on a hike would be chef's kiss xD.
+    para_2: Thank you for visiting my page! If you're interested in my work, would like to collaborate or just chat in general, feel free to reach out !
